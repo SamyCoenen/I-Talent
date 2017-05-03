@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on I-Talent portfolio</title>
+    <link>https://italent.samycoenen.be/tags/</link>
+    <description>Recent content in Tags on I-Talent portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <copyright>&amp;copy; 2017 Samy Coenen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://italent.samycoenen.be/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://italent.samycoenen.be/tags/hugo/</link>
+      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internationalisering</title>
+      <link>https://italent.samycoenen.be/tags/internationalisering/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/internationalisering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>https://italent.samycoenen.be/tags/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Levenslang Leren</title>
+      <link>https://italent.samycoenen.be/tags/levenslang-leren/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/levenslang-leren/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seminaries</title>
+      <link>https://italent.samycoenen.be/tags/seminaries/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/seminaries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studentenparticipatie</title>
+      <link>https://italent.samycoenen.be/tags/studentenparticipatie/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/tags/studentenparticipatie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

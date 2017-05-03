@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Levenslang Leren on I-Talent portfolio</title>
+    <link>https://italent.samycoenen.be/tags/levenslang-leren/</link>
+    <description>Recent content in Levenslang Leren on I-Talent portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <copyright>&amp;copy; 2017 Samy Coenen</copyright>
+    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/levenslang-leren/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Studiebuddy .Net</title>
+      <link>https://italent.samycoenen.be/project/studiebuddynet/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/studiebuddynet/</guid>
+      <description>&lt;p&gt;Onderwerp: DevOps
+Gegeven door: iAdvise
+Locatie: PXL
+Datum: 30/11/2016&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Studiebuddy Java</title>
+      <link>https://italent.samycoenen.be/project/projectweek/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/projectweek/</guid>
+      <description>&lt;p&gt;Onderwerp: DevOps&lt;/p&gt;
+
+&lt;p&gt;Gegeven door: iAdvise&lt;/p&gt;
+
+&lt;p&gt;Locatie: PXL&lt;/p&gt;
+
+&lt;p&gt;Datum: 30/11/2016&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Studiebuddy Java</title>
+      <link>https://italent.samycoenen.be/project/studiebuddyjava/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/studiebuddyjava/</guid>
+      <description>&lt;p&gt;Onderwerp: DevOps&lt;/p&gt;
+
+&lt;p&gt;Gegeven door: iAdvise&lt;/p&gt;
+
+&lt;p&gt;Locatie: PXL&lt;/p&gt;
+
+&lt;p&gt;Datum: 30/11/2016&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

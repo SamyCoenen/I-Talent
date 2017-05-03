@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internationalisering on I-Talent portfolio</title>
+    <link>https://italent.samycoenen.be/tags/internationalisering/</link>
+    <description>Recent content in Internationalisering on I-Talent portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <copyright>&amp;copy; 2017 Samy Coenen</copyright>
+    <lastBuildDate>Sun, 09 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/internationalisering/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://italent.samycoenen.be/project/berlijn/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/berlijn/</guid>
+      <description>&lt;p&gt;Onderwerp: DevOps
+Gegeven door: iAdvise
+Locatie: PXL
+Datum: 30/11/2016&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://italent.samycoenen.be/project/cardiff/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/cardiff/</guid>
+      <description>&lt;p&gt;Onderwerp: DevOps
+Gegeven door: iAdvise
+Locatie: PXL
+Datum: 30/11/2016&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
