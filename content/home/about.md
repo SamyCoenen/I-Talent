@@ -16,7 +16,8 @@ weight = 1
     "GNU/Linux",
     "Desktop/Server hardware",
     "Zwemmen",
-    "Fietsen"
+    "Fietsen",
+    "Fitness"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -28,13 +29,13 @@ weight = 1
 
 +++
 
-# Introductie
+# Over mij
+---
 
-Sinds het middelbaar heb ik een breed assortiment aan verschillende programmeertalen en technologieën gezien tot nu, het einde van mijn Professionele Bachelor.
+Hallo, mijn naam is Samy Coenen. Op het moment van dit portfolio te schrijven ben ik 21 jaar oud en woon ik in Tessenderlo. Mijn hobby's zijn een combinatie van digitale technologiën en sport.
 
-Nu was het de bedoeling om deze kennis zoveel mogelijk in de praktijk te kunnen gebruiken.
+In 2014 ben ik gestart aan de opleiding professionele bachelor in de toegepaste informatica.
 
+Sinds toen heb ik een breed assortiment aan verschillende programmeertalen en technologieën gezien tot nu, het einde van mijn Professionele Bachelor.
 
-Het doel van deze website als online portfolio is om mijn professionele ervaringen te delen en ook te slagen in het vak I-Talent.
-
-Er zullen dus verschillende professionele activiteiten getoond worden en ten laatste reflecteer ik zodat ik een eindbesluit kan maken.
+Nu zorgt het vak I-talent ervoor dat ik de kans heb om deze kennis in de praktijk toe te passen en nog meer professionele ervaringen op te doen.

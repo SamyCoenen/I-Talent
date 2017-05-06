@@ -6,8 +6,17 @@ date = "2017-04-09"
 title = "Big Data"
 
 # Project summary to display on homepage.
-summary = "Seminarie gegeven door KBC"
+summary = '
 
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 2 uur  | 18/05/2016  | Niet zelf aangebracht          |
+
+Seminarie gegeven door Jackie Janssen, Chief technology officer bij KBC Bank & Verzekering in Hogeschool PXL.
+
+Door middel van een aantal demo’s werd het belang van security binnen een organisatie toegelicht.
+Ook werd er aangetoond hoe makkelijk sommige aanvallen uit te voeren zijn op eindgebruikers en bedrijven.
+'
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -41,6 +50,8 @@ Locatie: PXL
 Datum: 18/05/2016 | 08.00u - 10.00u.
 
 Effectieve # uren: 2
+
+Zelfaangebrachte activiteit: Nee
 
 ---
 

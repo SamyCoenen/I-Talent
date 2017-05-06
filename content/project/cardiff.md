@@ -3,20 +3,24 @@
 date = "2017-04-09"
 
 # Project title.
-title = "
-
-Internationale Week - Cardiff"
+title = "Internationale Week - Cardiff"
 
 # Project summary to display on homepage.
-summary = "Een week op bezoek bij Cardiff Metropolitan University"
+summary = '
 
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 30 uur  | 04/04/2016 - 08/04/2016  | Niet zelf aangebracht          |
+
+Social media projectweek bij Cardiff Metropolitan University met 30 andere internationale studenten.
+'
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Internationalisering"]
+tags = ["Internationalisering","Uitgeschreven"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -26,13 +30,12 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = "My caption :smile:"
+image = "headers/Cardiff-met.jpg"
+caption = "[Source](http://www.studentkorfball.co.uk/wp-content/uploads/2016/11/CardiffMetLogo3.jpg)"
 [image]
 preview = "cardiff/cardiff-groepsfoto.jpg"
-caption = ""
+caption = "Cardiff"
 +++
-
 Locatie: Cardiff  
 Datum: 04/04/2016 - 08/04/2016
 

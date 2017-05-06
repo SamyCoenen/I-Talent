@@ -3,11 +3,19 @@
 date = "2017-04-08"
 
 # Project title.
-title = "Cloud: Mythen en Feiten"
+title = "Cloud: Mythes en Feiten"
 
 # Project summary to display on homepage.
-summary = "Seminarie gegeven door Chris Raymaekers van Cegeka in PXL op 11/05/2016"
+summary = '
 
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 2 uur  | 11/05/2016  | Niet zelf aangebracht          |
+
+Seminarie gegeven door Chris Raymaekers van Cegeka in Hogeschool PXL.
+
+Wat zijn de verschillende soorten datacenters en welke opportuniteiten en uitdagingen biedt de cloud.
+'
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -40,3 +48,29 @@ Datum: 11/05/2016
 ---
 
 Cloud is geen nieuw gegeven, in feite is gewoon en andere benaming voor iemand anders zijn computer of server.
+
+
+## **Soorten datacenters**
+---
+
+Er dient een opsplitsing gemaakt te worden tussen twee verschillende soorten van datacenters:
+
+- On-premise:
+  - local dataroom
+  - regional datacenter
+- Global:
+  - central datacenter
+  - cloud datacenter
+
+De cloud heeft als voordeel dat het een beter total cost of ownership kan leveren en het is ook flexibeler dan conventionele datacenters.
+
+## **Toekomstbeeld**
+---
+Er wordt voorspeld dat er tegen 2018 een groei zal zodat 30% van de bedrijven meer dan 50% van hun servers in de publieke cloud hebben staan.
+
+## **Uitdagingen**
+---
+Er zijn nog altijd uitdagingen voor de cloud zoals:
+
+- Downtime
+- Kosten

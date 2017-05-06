@@ -3,11 +3,20 @@
 date = "2017-04-08"
 
 # Project title.
-title = "DevOps"
+title = "Pitch & Pizza"
 
 # Project summary to display on homepage.
-summary = "Seminarie gegeven door iAdvise in PXL op 30/11/2016 http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
 
+summary = '
+
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 2 uren  | 04/02/2016  | Zelf aangebracht          |
+
+Extern seminarie gegeven door Young Prozzz & iMinds op de Corda Campus.   
+
+Deze pitch&pizza avond gaf mensen die ondernemer zijn of willen worden, de kans om hun idee voor te stellen aan een professionele jury.
+'
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -30,8 +39,3 @@ caption = "My caption :smile:"
 preview = ""
 caption = ""
 +++
-
-Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016

@@ -7,15 +7,15 @@ draft = false
 
 title = "Uitgeschreven Professionele Activiteiten"
 subtitle = ""
-widget = "posts"
+widget = "custom"
 
 # Order that this section will appear in.
-weight = 30
+weight = 6
 
 # Show posts that contain the following tags. Default to any tags.
 tags = []
 
 # Number of posts to list.
-count = 5
+count = 4
 
 +++

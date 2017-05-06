@@ -1,12 +1,22 @@
 +++
 # Date this page was created.
-date = "2017-04-08"
+date = "2017-04-30"
 
 # Project title.
-title = "DevOps"
+title = "Smart ICT"
 
 # Project summary to display on homepage.
-summary = "Seminarie gegeven door iAdvise in PXL op 30/11/2016 http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+summary = '
+
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 2 uren  | 25/05/2016  | Niet zelf aangebracht          |
+
+Seminarie over Smart ICT gegeven door Philippe Haldermans in Hogeschool PXL.
+
+Het Expertisecentrum PXL Smart ICT onderzoekt en ontwikkelt allerlei slimme toepassingen van de emerging technologies en bundelt praktijkgericht onderzoek en dienstverlening op het snijvlak van IT en elektronica.
+'
+
 
 
 # Optional image to display on homepage (relative to `static/img/` folder).
@@ -24,14 +34,14 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = "logo/logo_pxl_Smart-ICT.png"
+caption = "[Bron: pxl.be](https://www.pxl.be/Assets/website/pxl_algemeen/afbeeldingen/grotere_versie/logo_pxl_Smart-ICT.png)"
 [image]
-preview = "pxl-logo.png"
+preview = "logo/logo_pxl_Smart-ICT.png"
 caption = ""
 +++
 
-Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016
+Onderwerp: Smart ICT @ Breakfast  
+Gegeven door: Philippe Haldermans  
+Locatie: PXL  
+Datum: 25/05/2016  

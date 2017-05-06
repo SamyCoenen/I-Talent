@@ -6,8 +6,16 @@ date = "2017-04-08"
 title = "DevOps"
 
 # Project summary to display on homepage.
-summary = "Seminarie gegeven door iAdvise in PXL op 30/11/2016"
+summary = '
 
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 3 uren  | 30/11/2016  | Niet zelf aangebracht          |
+
+Seminarie gegeven door iAdvise in Hogeschool PXL. 
+
+Er werd gepraat over de definitie van DevOps, de geschiedenis en voorbeelden van automatisatie.
+'
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 
@@ -25,8 +33,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "headers/bubbles-wide.jpg"
+caption = "headers/bubbles-wide.jpg:"
 [image]
 preview = "logo/iadvise-logo.png"
 caption = ""

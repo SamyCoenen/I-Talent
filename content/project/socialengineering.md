@@ -3,11 +3,19 @@
 date = "2017-04-08"
 
 # Project title.
-title = "DevOps"
+title = "Social Engineering: de menselijke factor in IT security "
 
 # Project summary to display on homepage.
-summary = "Seminarie gegeven door iAdvise in PXL op 30/11/2016 http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+summary = '
 
+|            |                    | |
+| -----| ----------- | ------------------------------ |
+| 3 uren  | 28/09/2016  | Niet zelf aangebracht          |
+
+Seminarie social engineering gegeven door Dominik Verrydt van 3-it bvba in Hogeschool PXL.
+
+Er werd besproken welke veiligheidsproblemen er kunnen optreden wanneer gebruikers niet alert of geïnformeerd zijn. De behandeling van beveiligingsproblemen of lekken tegenwoordig werd ook vergeleken met vroeger.
+'
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -17,21 +25,16 @@ image_preview = ""
 tags = ["Seminaries"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "pdf/SocialEngineeringPXL.pdf"
 
 # Does the project detail page use math formatting?
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = ""
+caption = ""
 [image]
-preview = "3it-logo.png"
+preview = ""
 caption = ""
 +++
-
-Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016
