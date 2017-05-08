@@ -11,71 +11,327 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Manager @ Breakfast - Droneport </title>
+      <link>https://italent.samycoenen.be/project/droneport/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/droneport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://italent.samycoenen.be/project/pwc_security/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/pwc_security/</guid>
+      <description>
+
+&lt;p&gt;Gegeven door: Koen Burms van PwC&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
+Datum: 14/12/2016&lt;/p&gt;
+
+&lt;h1 id=&#34;inleiding&#34;&gt;&lt;strong&gt;Inleiding&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Door middel van een aantal demo’s werd het belang van security binnen een organisatie toegelicht.
+Ook werd er aangetoond hoe makkelijk sommige aanvallen uit te voeren zijn op eindgebruikers en bedrijven.&lt;/p&gt;
+
+&lt;h1 id=&#34;recente-exploits&#34;&gt;&lt;strong&gt;Recente exploits&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er werden enkele recente exploit cases bekeken aan de hand van de &amp;ldquo;Top 10 Owasp&amp;rdquo; lijst met meer informatie over hoe ze uitgevoerd zijn en waarom ze het vermelden waard zijn. De professionals die zich hier mee bezig houden noemen hun beroep ook InfoSec.&lt;/p&gt;
+
+&lt;h1 id=&#34;demo&#34;&gt;&lt;strong&gt;Demo&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er werden ook enkele demo&amp;rsquo;s gegeven:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kali&lt;/li&gt;
+&lt;li&gt;Metasploit: generate payload&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart ICT</title>
+      <link>https://italent.samycoenen.be/project/smartict/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/smartict/</guid>
+      <description>&lt;p&gt;Onderwerp: Smart ICT @ Breakfast&lt;br /&gt;
+Gegeven door: Philippe Haldermans&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
+Datum: 25/05/2016&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Studiereis Berlijn</title>
+      <link>https://italent.samycoenen.be/project/berlijn/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/berlijn/</guid>
+      <description>&lt;p&gt;Activiteiten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;city-tour met de fiets&lt;/li&gt;
+&lt;li&gt;bezoek Computerspielmuseum&lt;/li&gt;
+&lt;li&gt;bedrijfsbezoek ImmobilienScout24&lt;/li&gt;
+&lt;li&gt;bezoek parlement&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> CasaDelizioso.be</title>
+      <link>https://italent.samycoenen.be/project/delizioso/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/delizioso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Big Data</title>
       <link>https://italent.samycoenen.be/project/bigdata/</link>
       <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/bigdata/</guid>
-      <description>&lt;p&gt;Omschrijving: IT @ Breakfast: Big Data&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Omschrijving: IT @ Breakfast: Big Data&lt;/p&gt;
 
 &lt;p&gt;Gegeven door: Jackie Janssen, Chief technology officer bij KBC Bank &amp;amp; Verzekering&lt;/p&gt;
 
-&lt;p&gt;Locatie: PXL&lt;/p&gt;
+&lt;p&gt;Locatie: Hogeschool PXL&lt;/p&gt;
 
 &lt;p&gt;Datum: 18/05/2016 | 08.00u - 10.00u.&lt;/p&gt;
+
+&lt;p&gt;Effectieve # uren: 2&lt;/p&gt;
+
+&lt;p&gt;Zelfaangebrachte activiteit: Nee&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/headers/bigdatapresenter.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;inhoud&#34;&gt;Inhoud&lt;/h1&gt;
+
+&lt;p&gt;De introductie was een beschrijving van de &amp;ldquo;Four V&amp;rsquo;s&amp;rdquo; en hun evolutie:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Volume:     opslag wordt steeds goedkoper waardoor er meer data opgeslagen kan worden&lt;/li&gt;
+&lt;li&gt;Variety:    er zijn verschillende soorten data&lt;/li&gt;
+&lt;li&gt;Velocity:   de snelheid van de opgeslagen data&lt;/li&gt;
+&lt;li&gt;Veracity:   de kwaliteit van de data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hierna werd er gepraat over mogelijke waardevolle inzichten zoals bijvoorbeeld het inschatten van regen in België. Over heel België zijn er een groot aantal weerstations die constant data verzamelen, wanneer men deze gegevens verzamelt en over een lange tijd vergelijkt wordt het mogelijk om nauwkeurigere voorspellingen te maken van waar en wanneer het regent.&lt;/p&gt;
+
+&lt;p&gt;Tegenwoordig is Big Data een zeer bekend &amp;ldquo;buzzword&amp;rdquo; dat vaak in het nieuws komt, de meest recente gebeurtenis was hoe een robot met machine learning de beste speler van &amp;ldquo;Alpha Go&amp;rdquo; ter wereld kon verslaan. In het verleden was het al gelukt om andere spellen zoals schaken te robotiseren maar Alpha Go was veel ingewikkelder met zoveel mogelijkheden dat het zelfs voor een robot zeer lang kon duren voordat de volgende zet berekend was.&lt;/p&gt;
+
+&lt;p&gt;Op zichzelf kan data waardeloos zijn maar wanneer men data van meerdere bronnen samenbrengt kan dit wel kwalitatieve data worden.
+Zo heeft Jackie bijvoorbeeld meegeholpen met verschillende projecten zoals het bijeenbrengen van data van een schoonmaak bedrijf en de ongedierte bestrijding.&lt;/p&gt;
+
+&lt;p&gt;Het verkopen van data kan zeer lucratief zijn, er werd een voorbeeld aangehaald waarbij bedrijven geïnteresseeerd waren in informatie over CO2 uitstoot, er moesten namelijk belastingen betaald worden per eenheid van uitstoot. De overheid was ook geïnteresseeerd in dezelfde informatie waardoor deze tweemaal verkocht kon worden.&lt;/p&gt;
+
+&lt;p&gt;Ook waren er nog andere uitdagingen zoals gegevens vergelijken die elke twee weken verandert zoals bij Telenet.&lt;/p&gt;
+
+&lt;p&gt;In de toekomst zal Big Data nog meer gebruikt worden voor concepten zoals particulieren parking delen. Een hoog percentage aan mensen verlaat s&amp;rsquo;morgens zijn huis om naar het werk te gaan met de auto. Daardoor is hun parkeerplaats de hele dag ongebruikt maar het zou mooi zijn indien er tegen betaling deze plaats toch benut zou kunnen worden.&lt;/p&gt;
+
+&lt;p&gt;Ten laatste wordt de nuttigheid nog eens benadrukt van Big Data door een voorbeeld waarbij de politie de Twitter API gaat bekijken om misdaad te zoeken en op te volgen. Ze houden daarbij constant een aantal sleutelwoorden of hashtags in de gaten te houden en wanneer deze een illegale activiteit kunnen aangeven wordt er een melding gegeven aan een van de politieagenten. Wanneer een misdrijf al gebeurt is kan er ook bewijsmateriaal of een motief teruggevonden worden in de historiek van Twitter profielen.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/berlijn/</link>
-      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/berlijn/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
+      <title>Internationale Week - Cardiff</title>
       <link>https://italent.samycoenen.be/project/cardiff/</link>
       <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/cardiff/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Locatie: Cardiff&lt;br /&gt;
+Datum: 04/04/2016 - 08/04/2016&lt;/p&gt;
+
+&lt;p&gt;Medestudenten PXL:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bram Nagtegals&lt;/li&gt;
+&lt;li&gt;Kevin Buschgens&lt;/li&gt;
+&lt;li&gt;Ruben Huybrighs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hieronder in de planning ziet u een algemeen overzicht van alle activiteiten.
+&lt;img src=&#34;../../img/cardiff/cardiff-timetable.jpg&#34; alt=&#34;Planning&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;maandag&#34;&gt;Maandag&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/inkom.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We kwamen samen aan de receptie van Cardiff Metropolitan University en kregen een korte toelichting over het gebruik van de bus en waar we moesten verzamelen iedere morgen. We kregen ook een zak met pen, papier en naamkaartje mee. Hierna moesten we meekomen naar een lokaal waar we een algemene uitleg kregen over onze week in Cardiff. Na de uitleg werden we opgedeeld in groepen en moesten we voor teambuilding een oefening maken.&lt;/p&gt;
+
+&lt;p&gt;In de namiddag kregen we eerst een korte verwelkoming door de directeur van de school. Vervolgens werden we opgedeeld in 2 groepen en moesten we een concept bedenken hoe we het toerisme van Cardiff zouden kunnen verbeteren via sociale media. Op het einde van de dag moest iedere groep in het kort toelichten welke platformen we zouden gebruiken, op welke manier en waarom.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/schooldirecteur.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;dinsdag&#34;&gt;Dinsdag&lt;/h1&gt;
+
+&lt;h2 id=&#34;seminarie&#34;&gt;Seminarie&lt;/h2&gt;
+
+&lt;p&gt;Nicola Williams is een marketeer die op een aangename en energievolle manier een seminarie gaf. Het seminarie ging over hoe sociale media gebruikt wordt door grote bedrijven. Ze gaf ook meerdere voorbeelden via filmpjes hoe marketing gedaan wordt door de grote bedrijven en wat de goede en slechte dingen hieraan waren.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/nicola-williams.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hierna kregen we een kleine pauze gevolgd door een tweede seminarie door &lt;a href=&#34;http://ignite.wales/speakers/louise-czekaj/&#34; target=&#34;_blank&#34;&gt;Louise Czekaj&lt;/a&gt;. Zij stond in voor de sociale media van de “bank” Principality Building Society dat hypotheken verkoopt. Ze vertelde ons hoe ze dingen aanpakt en hoe deze een negatieve of positieve invloed kunnen hebben voor het imago van een bedrijf. Een voorbeeld hiervan was toen ze het Millenium Stadium Cardiff sponsorde en de naam veranderde naar Principality Stadium Cardiff waardoor er heel veel mensen kwade reacties achterlieten op hun sociale media pagina’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/louise-czekaj.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In de namiddag hebben we een uitstap gemaakt naar Cardiff Castle. We hebben hier een tweetal uur rondgelopen en foto’s gemaakt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/cardiff-groepsfoto.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;woensdag&#34;&gt;Woensdag&lt;/h1&gt;
+
+&lt;h2 id=&#34;seminarie-1&#34;&gt;Seminarie&lt;/h2&gt;
+
+&lt;p&gt;We begonnen de dag met een seminarie van mevrouw &lt;a href=&#34;http://www.cardiffmet.ac.uk/management/staff/Pages/Dr-Taslima-Begum.aspx&#34; target=&#34;_blank&#34;&gt;Taslima Begum&lt;/a&gt;. Ze vertelde ons wat de gevaren van sociale media waren en hoe sociale media onze informatie gebruikt zonder dat we dit weten. Ze raadde ons aan om ons sociale media platformen zoveel mogelijk te beveiligen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/taslima-begum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Na de lunch zijn we samen vertrokken naar het National Assembly gebouw of ook Senedd. Dit lag in Cardiff Bay. In dit gebouw opereert eigenlijk de ‘regering’ van Wales. Ze hebben macht op gebied van gezondheidszorg, school en nog meer maar niet alles. We kregen hier een rondleiding met een gids die ons geschiedenis meegaf en hoe hij de toekomst zag. Het was een nieuw gebouw dat economisch vriendelijk was.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/senedd.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Na de rondleiding zijn we met een speedboot weggeweest op Cardiff Bay. Dit was een unieke ervaring voor ons en we waren redelijk nat na de boottocht.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/sea-safari.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;donderdag&#34;&gt;Donderdag&lt;/h1&gt;
+
+&lt;p&gt;We zijn vrijwel direct begonnen met het maken van onze poster. We kregen hier zo goed als de ganse dag voor. Om 11 uur werden we naar een lokaal gebracht omdat we nog een korte seminarie gingen krijgen van Prof David Brooksbank over hoe sociale media in de toekomst er uit zal zien. Maar dit seminarie was eigenlijk hoofdzakelijk gefocust op 3D printen en 4D printen in de toekomst. Veel sociale media over de toekomst was hier dus eigenlijk niet aan volgens ons. Het was wel interessant om te zien hoe de toekomst eruit zal zien op gebied van technologie en het printen van onderdelen. 4D printen is iets dat in de toekomst zal opkomen en print een onderdeel dat zichzelf kan herstellen of veranderen van vorm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/david-brooksbank.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;vrijdag&#34;&gt;Vrijdag&lt;/h1&gt;
+
+&lt;p&gt;Volgens Rowena was het niet de moeite om nog te komen voor ons op vrijdag omdat we onze bus al om half 12 terug hadden. Ze zei ook dat het niet verplicht was om aanwezig te zijn omdat er enkel een korte toelichting werd gegeven over onze gemaakte posters.&lt;/p&gt;
+
+&lt;p&gt;Mijn groep:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cloots Vone&lt;/li&gt;
+&lt;li&gt;Jel Sadones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We hebben uiteindelijk gewonnen met de beste poster van onze theoretische Social Media strategie.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/cardiff-poster.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/delizioso/</link>
-      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      <title>Amazon Web Services</title>
+      <link>https://italent.samycoenen.be/project/aws_cloudar/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://italent.samycoenen.be/project/delizioso/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
+      <guid>https://italent.samycoenen.be/project/aws_cloudar/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>DevOps</title>
+      <title>Bezoek datacenter Cegeka</title>
+      <link>https://italent.samycoenen.be/project/datacenter_cegeka/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/datacenter_cegeka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Bang Disruption, Accenture Technology Vision</title>
+      <link>https://italent.samycoenen.be/project/big_data_eruption_accenture/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/big_data_eruption_accenture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud: Mythes en Feiten</title>
       <link>https://italent.samycoenen.be/project/cloudmythes/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/cloudmythes/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Onderwerp: DevOps&lt;br /&gt;
+Gegeven door: Chris Raymaekers van Cegeka&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
+Datum: 11/05/2016&lt;/p&gt;
+
+&lt;h2 id=&#34;definitie&#34;&gt;&lt;strong&gt;Definitie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Cloud is geen nieuw gegeven, in feite is gewoon en andere benaming voor iemand anders zijn computer of server.&lt;/p&gt;
+
+&lt;h2 id=&#34;soorten-datacenters&#34;&gt;&lt;strong&gt;Soorten datacenters&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er dient een opsplitsing gemaakt te worden tussen twee verschillende soorten van datacenters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;On-premise:
+
+&lt;ul&gt;
+&lt;li&gt;local dataroom&lt;/li&gt;
+&lt;li&gt;regional datacenter&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Global:
+
+&lt;ul&gt;
+&lt;li&gt;central datacenter&lt;/li&gt;
+&lt;li&gt;cloud datacenter&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;De cloud heeft als voordeel dat het een beter total cost of ownership kan leveren en het is ook flexibeler dan conventionele datacenters.&lt;/p&gt;
+
+&lt;h2 id=&#34;toekomstbeeld&#34;&gt;&lt;strong&gt;Toekomstbeeld&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er wordt voorspeld dat er tegen 2018 een groei zal zodat 30% van de bedrijven meer dan 50% van hun servers in de publieke cloud hebben staan.&lt;/p&gt;
+
+&lt;h2 id=&#34;uitdagingen&#34;&gt;&lt;strong&gt;Uitdagingen&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er zijn nog altijd uitdagingen voor de cloud zoals:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Downtime&lt;/li&gt;
+&lt;li&gt;Kosten&lt;/li&gt;
+&lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Containers &amp; Dockers / CI-CD </title>
+      <link>https://italent.samycoenen.be/project/containers_docker_gluo/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/containers_docker_gluo/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -84,63 +340,63 @@ Datum: 30/11/2016&lt;/p&gt;
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/devops/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
+      <description>
+
+&lt;p&gt;Onderwerp: DevOps&lt;br /&gt;
+Gegeven door: Dries Dams van iAdvise&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
 Datum: 30/11/2016&lt;/p&gt;
+
+&lt;h2 id=&#34;inleiding&#34;&gt;&lt;strong&gt;Inleiding&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Als inleiding werd een korte beschrijving van het bedrijf gegeven met de normen en waarden. iAdvice maakt deel uit van Cronos Group en werkt met klanten van België en Nederland.&lt;/p&gt;
+
+&lt;h2 id=&#34;definitie&#34;&gt;&lt;strong&gt;Definitie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;DevOps is een culturele en professionele beweging, meestal probeert men DevOps te definiëren door een aantal tools op te lijsten, maar dit is niet juist.&lt;/p&gt;
+
+&lt;p&gt;Het is een inclusieve beweging met als doel om ontwikkelaars en infrastructuur professionals beter samen te laten werken.&lt;/p&gt;
+
+&lt;h2 id=&#34;geschiedenis&#34;&gt;&lt;strong&gt;Geschiedenis&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1950: LEAN&lt;/li&gt;
+&lt;li&gt;1986: NNPDG&lt;/li&gt;
+&lt;li&gt;1993: SCRUM,XP programming&lt;/li&gt;
+&lt;li&gt;2001: .com bubble en anti-establishment periode, Agile Manifesto werd geschreven door Mike Beedle, Ken Schwaber en Jeff Sutherland&lt;/li&gt;
+&lt;li&gt;2009: Patrick Debois geeft keynote, Andrew Shafer en Gene Kim schrijven boek over DevOps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;automatisatie&#34;&gt;&lt;strong&gt;Automatisatie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Het doel is om alles te automatiseren.
+Netflix geeft het grote voorbeeld: ze schreven zelf een tool genaamd Siminian Army, Chaos Monkey om hun eigen services aan te vallen en hun infrastructuur te kunnen testen op het automatische herstel.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Verzamel zoveel mogelijk informatie van systemen en geef deze weer op grote schermen met dashboards zodat elke werknemer ze kunnen bekijken en zelfs verbeteren.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deel alles: Hipchat, Slack en andere berichtdiensten zorgen ervoor dat iedereen verschillende gespreken kan bijwonen, geef meer beheer aan ontwikkelaars door ze de mogelijkheid te geven om ChatOps commanda&amp;rsquo;s sturen via chat.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://italent.samycoenen.be/pdf/DevOps-PXL.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/droneport/</link>
+      <title>EMC-DELL: Internet of things </title>
+      <link>https://italent.samycoenen.be/project/iot_emc-dell/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://italent.samycoenen.be/project/droneport/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/pitchpizza/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/pitchpizza/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/smartict/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/smartict/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/socialengineering/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/socialengineering/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
+      <guid>https://italent.samycoenen.be/project/iot_emc-dell/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -150,61 +406,6 @@ Datum: 30/11/2016&lt;/p&gt;
       
       <guid>https://italent.samycoenen.be/project/endusercomputing/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Studiebuddy .Net</title>
-      <link>https://italent.samycoenen.be/project/studiebuddynet/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/studiebuddynet/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Studiebuddy Java</title>
-      <link>https://italent.samycoenen.be/project/projectweek/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/projectweek/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps&lt;/p&gt;
-
-&lt;p&gt;Gegeven door: iAdvise&lt;/p&gt;
-
-&lt;p&gt;Locatie: PXL&lt;/p&gt;
-
-&lt;p&gt;Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Studiebuddy Java</title>
-      <link>https://italent.samycoenen.be/project/studiebuddyjava/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/studiebuddyjava/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps&lt;/p&gt;
-
-&lt;p&gt;Gegeven door: iAdvise&lt;/p&gt;
-
-&lt;p&gt;Locatie: PXL&lt;/p&gt;
-
-&lt;p&gt;Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>https://italent.samycoenen.be/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -38,6 +38,6 @@ view = 0
   tag = ".Levenslang-leren"
 
 [[filter]]
-  name = "Extern"
-  tag = ".Extern"
+  name = "Portfolio"
+  tag = ".Portfolio"
 +++

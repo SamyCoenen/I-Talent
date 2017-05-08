@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.21-DEV" />
+  <meta name="author" content="Samy Coenen">
+  <meta name="description" content="Student Toegepaste Informatica _ Systemen- en Netwerkbeheer">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://italent.samycoenen.be/index.xml" type="application/rss+xml" title="I-Talent portfolio">
+  <link rel="feed" href="https://italent.samycoenen.be/index.xml" type="application/rss+xml" title="I-Talent portfolio">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://italent.samycoenen.be/post/containers_docker/">
+
+  
+
+  <title>Containers &amp; Dockers / CI-CD | I-Talent portfolio</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Open navigatie</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">I-Talent portfolio</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Voorstelling</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Overzicht</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#selectie">
+            
+            <span>Selectie</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#reflectie">
+            
+            <span>Eindreflectie</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+  <div class="article-header">
+    <img src="/img/headers/docker.png" class="article-banner" itemprop="image">
+    
+  </div>
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">Containers &amp; Dockers / CI-CD</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-01-11 12:00:00 &#43;0000 UTC" itemprop="datePublished">
+      01-11-2017
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/seminaries">Seminaries</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fitalent.samycoenen.be%2fpost%2fcontainers_docker%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Containers%20%26%20Dockers%20%2f%20CI-CD&amp;url=https%3a%2f%2fitalent.samycoenen.be%2fpost%2fcontainers_docker%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fitalent.samycoenen.be%2fpost%2fcontainers_docker%2f&amp;title=Containers%20%26%20Dockers%20%2f%20CI-CD"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fitalent.samycoenen.be%2fpost%2fcontainers_docker%2f&amp;title=Containers%20%26%20Dockers%20%2f%20CI-CD"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Containers%20%26%20Dockers%20%2f%20CI-CD&amp;body=https%3a%2f%2fitalent.samycoenen.be%2fpost%2fcontainers_docker%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Gegeven door: Steven Trescinski van Gluo</p>
+
+<p>Locatie: Corda Campus</p>
+
+<p>Datum: 11/01/2017</p>
+
+<h1 id="waarom-containers"><strong>Waarom Containers</strong></h1>
+
+<hr />
+
+<p>Indien we een programma willen installeren op een nieuwe server kunnen we dit manueel doen door in een terminal commando&rsquo;s in te geven om bepaalde pakketten te installeren. Dit is geen goede manier omdat het moeilijk is om dit te doen op veel verschillende servers. Er kunnen stappen overgeslagen worden omdat er vaak geen documentatie bijgehouden wordt. Het is dan ook zeer moeilijk om op een server van iemand anders te weten wat er allemaal al reeds op gedaan is.</p>
+
+<p>Een tweede manier is door de installatie en configuratie uit te laten voeren door een configuratiemanagement programma. Een nadeel hiervan is dat de persoon die hier mee werkt veel kennis moet hebben om dit programma te kunnen begrijpen.</p>
+
+<p>Containers bieden de oplossing omdat ze volledig na te maken zijn en omdat er geen speciale kennis van een configuratiemanagement programma nodig is.</p>
+
+<h1 id="geschiedenis-van-containers"><strong>Geschiedenis van containers</strong></h1>
+
+<hr />
+
+<p>Containers zijn niet nieuw, er waren al andere technologieën zoals:</p>
+
+<ul>
+<li>Solaris</li>
+<li>LXC</li>
+<li>OpenVZ</li>
+<li>BSD Jails</li>
+</ul>
+
+<p>Er is nu wel extra aandacht sinds Docker is uitgebracht.</p>
+
+<h1 id="containers-vs-virtuele-machines"><strong>Containers vs. Virtuele Machines</strong></h1>
+
+<hr />
+
+<p>Een virtuele machine duurt lang om op te starten, meestal een aantal minuten en kan heel groot zijn. Een schijf van een virtuele machine is meestal minstens enkele GB&rsquo;s groot. Dit komt omdat er een extra laag is tegenover een container, er dient telkens opnieuw een nieuwe besturingssysteem geïnstalleerd te worden bij elke nieuwe virtuele machine.</p>
+
+<p><img src="../../img/virtual_machines.png" alt="" /></p>
+
+<p>Een container werkt anders, er wordt enkel een isolatie gedaan binnen dezelfde kernel of besturingssysteem. Het is daarom ook veel efficiënter en sneller, een nieuwe container opstarten duurt enkele seconden. Er kunnen ook limieten gesteld worden want een container heeft zijn eigen &ldquo;namespaces&rdquo;:</p>
+
+<ul>
+<li>Netwerk</li>
+<li>Processenboom</li>
+<li>Bestandssysteem</li>
+<li>Gebruikers</li>
+</ul>
+
+<p>Geheugen of processor limieten worden ingesteld met Cgroepen.</p>
+
+<p>Ten laatste hebben containers slimmere bestandssystemen waardoor er verschillende lagen gedeeld kunnen worden tussen andere containers.</p>
+
+<h1 id="docker"><strong>Docker</strong></h1>
+
+<hr />
+
+<p>Docker maakt het mogelijk om containers te gebruiken met heel korte commando&rsquo;s, dit is dus veel eenvoudiger dan vroeger.</p>
+
+<p>Docker is ontstaan als een Platform-as-a-Service bedrijf, ze hadden hun eigen oplossing met een interne containertechnology ontwikkeld en hadden deze open source gemaakt. Wat ze niet verwacht hadden was dat Docker in een korte periode heel populair is geworden waardoor ze volledig omgeschakeld zijn van PaaS naar enkel nog Docker.</p>
+
+<p>Docker heeft op dit moment enkele essentiële onderdelen namelijk:</p>
+
+<ul>
+<li>Docker Engine: het proces om containers te kunnen doen draaien.</li>
+<li>Images: dit zijn basissjablonen van systemen.</li>
+<li>Containers: een image met een aanpasbare laag.</li>
+<li>Registry: Een opslagplaats voor images van andere mensen.</li>
+</ul>
+
+<h1 id="demo"><strong>Demo</strong></h1>
+
+<hr />
+
+<p>Ten eerste hebben we Docker geïnstalleerd, dit was eenvoudig omdat er maar 1 commando nodig was omdat ik GNU/Linux gebruik.</p>
+
+<pre><code> curl -sSL https://get.docker.com/ | sh
+</code></pre>
+
+<p>Daarna hebben we enkele containers gestart.</p>
+
+<pre><code>docker run -ti ubuntu bash
+</code></pre>
+
+<p>Normaal gezien zou rm -rf een volledig besturingssysteem verwijderen maar in een Docker container is dit geen probleem omdat de container opnieuw aangemaakt kan worden in een paar seconden.</p>
+
+<p>Daarna hebben we een drone doen opstijgen door enkele Twitter berichten te sturen.</p>
+
+<p>Ten slotte hebben we met de hele groep een Docker Swarm aangemaakt. Dit is een cluster met containers. We hadden hiervoor elk een eigen virtuele machine in de cloud gekregen.</p>
+
+<h1 id="reflectie"><strong>Reflectie</strong></h1>
+
+<hr />
+
+<p>Ik had al eerder met Docker containers gewerkt, dat was ook de reden dat ik besloten had om naar dit seminarie te komen. Ik wilde graag meer weten wat er allemaal gedaan kon worden met containers.</p>
+
+<p>Het was ook interessant om te zien dat de technologie om containers aan te maken al lang bestond maar dat het nu pas populair is geworden door de eenvoudigheid van Docker. Een gebruikersvriendelijke applicatie is dus vaak beter dan een efficiëntere maar onbruikbare applicatie.</p>
+
+<p>Het gebruik van Docker Swarm deed mij ook realiseren dat er over de opslag van gegevens goed moet worden nagedacht omdat er heel veel containers aan dezelfde gegevens moeten kunnen geraken of misschien ook niet. Docker is ook enkel maar schaalbaar indien alle onderdelen kunnen schalen.</p>
+
+<p>Tegenover de rest van de groep had ik als voordeel dat ik GNU/Linux op mijn laptop geïnstalleerd had, zij hadden Windows en moesten Docker in een virtuele machine draaien waar GNU/Linux op geïnstalleerd was.</p>
+
+<p>Het voordeel van seminaries is dat er veel nieuwe theoretische kennis opgedaan kan worden maar omdat er tijdens dit seminarie een hands-on gedeelte was, was ik meer gemotiveerd om constant te volgen en te luisteren. Omdat ik meer gemotiveerd ben tijdens dit soort van seminaries hoop ik er op dat Hogeschool PXL zulke seminaries zal blijven aanbieden aan toekomstige studenten. Ook hoop ik dat toekomstige seminaries voor mij, als werknemer ook op deze manier zullen verlopen.</p>
+
+<p>Ik weet zeker dat ik mijn kennis van Docker nog zal kunnen gebruiken tijdens mijn stage dus alles wat ik tijdens dit seminarie heb gezien zal ik zeker onthouden.</p>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://italent.samycoenen.be/post/devops/"><span
+      aria-hidden="true">&larr;</span> DevOps</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Samy Coenen &middot; 
+
+      Source available at <a href="https://github.com/SamyCoenen/I-Talent" target="_blank">Github repository</a> .
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

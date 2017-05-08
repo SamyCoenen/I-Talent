@@ -3,7 +3,7 @@
 date = "2017-04-08"
 
 # Project title.
-title = "Studiebuddy .Net"
+title = "Studiebuddy .Net Essentials"
 
 # Project summary to display on homepage.
 
@@ -13,7 +13,7 @@ summary = '
 | -----| ----------- | ------------------------------ |
 | 16 uren  | 11/03/2016 - 9/05/2016 | Niet zelf aangebracht          |
 
-Er werden 4 sessies van telkens 2 uur vakinhoudelijke ondersteuning gegeven aan een tutee van het eerste jaar voor het vak .Net Essentials. Deze sessies gingen allemaal door in Hogeschool PXL.
+Er werden 4 sessies van telkens 2 uren vakinhoudelijke ondersteuning gegeven aan een tutee van het eerste jaar voor het vak .Net Essentials. Deze sessies gingen allemaal door in Hogeschool PXL.
 '
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""

@@ -7,8 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
     <copyright>&amp;copy; 2017 Samy Coenen</copyright>
-    <lastBuildDate>Sun, 09 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/seminaries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Manager @ Breakfast - Droneport </title>
+      <link>https://italent.samycoenen.be/project/droneport/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/droneport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://italent.samycoenen.be/project/pwc_security/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/pwc_security/</guid>
+      <description>
+
+&lt;p&gt;Gegeven door: Koen Burms van PwC&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
+Datum: 14/12/2016&lt;/p&gt;
+
+&lt;h1 id=&#34;inleiding&#34;&gt;&lt;strong&gt;Inleiding&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Door middel van een aantal demo’s werd het belang van security binnen een organisatie toegelicht.
+Ook werd er aangetoond hoe makkelijk sommige aanvallen uit te voeren zijn op eindgebruikers en bedrijven.&lt;/p&gt;
+
+&lt;h1 id=&#34;recente-exploits&#34;&gt;&lt;strong&gt;Recente exploits&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er werden enkele recente exploit cases bekeken aan de hand van de &amp;ldquo;Top 10 Owasp&amp;rdquo; lijst met meer informatie over hoe ze uitgevoerd zijn en waarom ze het vermelden waard zijn. De professionals die zich hier mee bezig houden noemen hun beroep ook InfoSec.&lt;/p&gt;
+
+&lt;h1 id=&#34;demo&#34;&gt;&lt;strong&gt;Demo&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er werden ook enkele demo&amp;rsquo;s gegeven:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kali&lt;/li&gt;
+&lt;li&gt;Metasploit: generate payload&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart ICT</title>
+      <link>https://italent.samycoenen.be/project/smartict/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/smartict/</guid>
+      <description>&lt;p&gt;Onderwerp: Smart ICT @ Breakfast&lt;br /&gt;
+Gegeven door: Philippe Haldermans&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
+Datum: 25/05/2016&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Big Data</title>
@@ -16,27 +76,147 @@
       <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/bigdata/</guid>
-      <description>&lt;p&gt;Omschrijving: IT @ Breakfast: Big Data&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Omschrijving: IT @ Breakfast: Big Data&lt;/p&gt;
 
 &lt;p&gt;Gegeven door: Jackie Janssen, Chief technology officer bij KBC Bank &amp;amp; Verzekering&lt;/p&gt;
 
-&lt;p&gt;Locatie: PXL&lt;/p&gt;
+&lt;p&gt;Locatie: Hogeschool PXL&lt;/p&gt;
 
 &lt;p&gt;Datum: 18/05/2016 | 08.00u - 10.00u.&lt;/p&gt;
+
+&lt;p&gt;Effectieve # uren: 2&lt;/p&gt;
+
+&lt;p&gt;Zelfaangebrachte activiteit: Nee&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/headers/bigdatapresenter.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;inhoud&#34;&gt;Inhoud&lt;/h1&gt;
+
+&lt;p&gt;De introductie was een beschrijving van de &amp;ldquo;Four V&amp;rsquo;s&amp;rdquo; en hun evolutie:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Volume:     opslag wordt steeds goedkoper waardoor er meer data opgeslagen kan worden&lt;/li&gt;
+&lt;li&gt;Variety:    er zijn verschillende soorten data&lt;/li&gt;
+&lt;li&gt;Velocity:   de snelheid van de opgeslagen data&lt;/li&gt;
+&lt;li&gt;Veracity:   de kwaliteit van de data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hierna werd er gepraat over mogelijke waardevolle inzichten zoals bijvoorbeeld het inschatten van regen in België. Over heel België zijn er een groot aantal weerstations die constant data verzamelen, wanneer men deze gegevens verzamelt en over een lange tijd vergelijkt wordt het mogelijk om nauwkeurigere voorspellingen te maken van waar en wanneer het regent.&lt;/p&gt;
+
+&lt;p&gt;Tegenwoordig is Big Data een zeer bekend &amp;ldquo;buzzword&amp;rdquo; dat vaak in het nieuws komt, de meest recente gebeurtenis was hoe een robot met machine learning de beste speler van &amp;ldquo;Alpha Go&amp;rdquo; ter wereld kon verslaan. In het verleden was het al gelukt om andere spellen zoals schaken te robotiseren maar Alpha Go was veel ingewikkelder met zoveel mogelijkheden dat het zelfs voor een robot zeer lang kon duren voordat de volgende zet berekend was.&lt;/p&gt;
+
+&lt;p&gt;Op zichzelf kan data waardeloos zijn maar wanneer men data van meerdere bronnen samenbrengt kan dit wel kwalitatieve data worden.
+Zo heeft Jackie bijvoorbeeld meegeholpen met verschillende projecten zoals het bijeenbrengen van data van een schoonmaak bedrijf en de ongedierte bestrijding.&lt;/p&gt;
+
+&lt;p&gt;Het verkopen van data kan zeer lucratief zijn, er werd een voorbeeld aangehaald waarbij bedrijven geïnteresseeerd waren in informatie over CO2 uitstoot, er moesten namelijk belastingen betaald worden per eenheid van uitstoot. De overheid was ook geïnteresseeerd in dezelfde informatie waardoor deze tweemaal verkocht kon worden.&lt;/p&gt;
+
+&lt;p&gt;Ook waren er nog andere uitdagingen zoals gegevens vergelijken die elke twee weken verandert zoals bij Telenet.&lt;/p&gt;
+
+&lt;p&gt;In de toekomst zal Big Data nog meer gebruikt worden voor concepten zoals particulieren parking delen. Een hoog percentage aan mensen verlaat s&amp;rsquo;morgens zijn huis om naar het werk te gaan met de auto. Daardoor is hun parkeerplaats de hele dag ongebruikt maar het zou mooi zijn indien er tegen betaling deze plaats toch benut zou kunnen worden.&lt;/p&gt;
+
+&lt;p&gt;Ten laatste wordt de nuttigheid nog eens benadrukt van Big Data door een voorbeeld waarbij de politie de Twitter API gaat bekijken om misdaad te zoeken en op te volgen. Ze houden daarbij constant een aantal sleutelwoorden of hashtags in de gaten te houden en wanneer deze een illegale activiteit kunnen aangeven wordt er een melding gegeven aan een van de politieagenten. Wanneer een misdrijf al gebeurt is kan er ook bewijsmateriaal of een motief teruggevonden worden in de historiek van Twitter profielen.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DevOps</title>
+      <title>Amazon Web Services</title>
+      <link>https://italent.samycoenen.be/project/aws_cloudar/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/aws_cloudar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bezoek datacenter Cegeka</title>
+      <link>https://italent.samycoenen.be/project/datacenter_cegeka/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/datacenter_cegeka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Bang Disruption, Accenture Technology Vision</title>
+      <link>https://italent.samycoenen.be/project/big_data_eruption_accenture/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/big_data_eruption_accenture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud: Mythes en Feiten</title>
       <link>https://italent.samycoenen.be/project/cloudmythes/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/cloudmythes/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Onderwerp: DevOps&lt;br /&gt;
+Gegeven door: Chris Raymaekers van Cegeka&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
+Datum: 11/05/2016&lt;/p&gt;
+
+&lt;h2 id=&#34;definitie&#34;&gt;&lt;strong&gt;Definitie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Cloud is geen nieuw gegeven, in feite is gewoon en andere benaming voor iemand anders zijn computer of server.&lt;/p&gt;
+
+&lt;h2 id=&#34;soorten-datacenters&#34;&gt;&lt;strong&gt;Soorten datacenters&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er dient een opsplitsing gemaakt te worden tussen twee verschillende soorten van datacenters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;On-premise:
+
+&lt;ul&gt;
+&lt;li&gt;local dataroom&lt;/li&gt;
+&lt;li&gt;regional datacenter&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Global:
+
+&lt;ul&gt;
+&lt;li&gt;central datacenter&lt;/li&gt;
+&lt;li&gt;cloud datacenter&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;De cloud heeft als voordeel dat het een beter total cost of ownership kan leveren en het is ook flexibeler dan conventionele datacenters.&lt;/p&gt;
+
+&lt;h2 id=&#34;toekomstbeeld&#34;&gt;&lt;strong&gt;Toekomstbeeld&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er wordt voorspeld dat er tegen 2018 een groei zal zodat 30% van de bedrijven meer dan 50% van hun servers in de publieke cloud hebben staan.&lt;/p&gt;
+
+&lt;h2 id=&#34;uitdagingen&#34;&gt;&lt;strong&gt;Uitdagingen&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Er zijn nog altijd uitdagingen voor de cloud zoals:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Downtime&lt;/li&gt;
+&lt;li&gt;Kosten&lt;/li&gt;
+&lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Containers &amp; Dockers / CI-CD </title>
+      <link>https://italent.samycoenen.be/project/containers_docker_gluo/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/containers_docker_gluo/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -45,63 +225,63 @@ Datum: 30/11/2016&lt;/p&gt;
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/devops/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
+      <description>
+
+&lt;p&gt;Onderwerp: DevOps&lt;br /&gt;
+Gegeven door: Dries Dams van iAdvise&lt;br /&gt;
+Locatie: PXL&lt;br /&gt;
 Datum: 30/11/2016&lt;/p&gt;
+
+&lt;h2 id=&#34;inleiding&#34;&gt;&lt;strong&gt;Inleiding&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Als inleiding werd een korte beschrijving van het bedrijf gegeven met de normen en waarden. iAdvice maakt deel uit van Cronos Group en werkt met klanten van België en Nederland.&lt;/p&gt;
+
+&lt;h2 id=&#34;definitie&#34;&gt;&lt;strong&gt;Definitie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;DevOps is een culturele en professionele beweging, meestal probeert men DevOps te definiëren door een aantal tools op te lijsten, maar dit is niet juist.&lt;/p&gt;
+
+&lt;p&gt;Het is een inclusieve beweging met als doel om ontwikkelaars en infrastructuur professionals beter samen te laten werken.&lt;/p&gt;
+
+&lt;h2 id=&#34;geschiedenis&#34;&gt;&lt;strong&gt;Geschiedenis&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1950: LEAN&lt;/li&gt;
+&lt;li&gt;1986: NNPDG&lt;/li&gt;
+&lt;li&gt;1993: SCRUM,XP programming&lt;/li&gt;
+&lt;li&gt;2001: .com bubble en anti-establishment periode, Agile Manifesto werd geschreven door Mike Beedle, Ken Schwaber en Jeff Sutherland&lt;/li&gt;
+&lt;li&gt;2009: Patrick Debois geeft keynote, Andrew Shafer en Gene Kim schrijven boek over DevOps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;automatisatie&#34;&gt;&lt;strong&gt;Automatisatie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Het doel is om alles te automatiseren.
+Netflix geeft het grote voorbeeld: ze schreven zelf een tool genaamd Siminian Army, Chaos Monkey om hun eigen services aan te vallen en hun infrastructuur te kunnen testen op het automatische herstel.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Verzamel zoveel mogelijk informatie van systemen en geef deze weer op grote schermen met dashboards zodat elke werknemer ze kunnen bekijken en zelfs verbeteren.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deel alles: Hipchat, Slack en andere berichtdiensten zorgen ervoor dat iedereen verschillende gespreken kan bijwonen, geef meer beheer aan ontwikkelaars door ze de mogelijkheid te geven om ChatOps commanda&amp;rsquo;s sturen via chat.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://italent.samycoenen.be/pdf/DevOps-PXL.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/droneport/</link>
+      <title>EMC-DELL: Internet of things </title>
+      <link>https://italent.samycoenen.be/project/iot_emc-dell/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://italent.samycoenen.be/project/droneport/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/pitchpizza/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/pitchpizza/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/smartict/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/smartict/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://italent.samycoenen.be/project/socialengineering/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/socialengineering/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps
-Gegeven door: iAdvise
-Locatie: PXL
-Datum: 30/11/2016&lt;/p&gt;
-</description>
+      <guid>https://italent.samycoenen.be/project/iot_emc-dell/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -111,6 +291,139 @@ Datum: 30/11/2016&lt;/p&gt;
       
       <guid>https://italent.samycoenen.be/project/endusercomputing/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Pitch &amp; Pizza</title>
+      <link>https://italent.samycoenen.be/project/pitchpizza/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/pitchpizza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Engineering: de menselijke factor in IT security </title>
+      <link>https://italent.samycoenen.be/project/socialengineering/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/socialengineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containers &amp; Dockers / CI-CD</title>
+      <link>https://italent.samycoenen.be/post/containers_docker/</link>
+      <pubDate>Wed, 11 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/post/containers_docker/</guid>
+      <description>
+
+&lt;p&gt;Gegeven door: Steven Trescinski van Gluo&lt;/p&gt;
+
+&lt;p&gt;Locatie: Corda Campus&lt;/p&gt;
+
+&lt;p&gt;Datum: 11/01/2017&lt;/p&gt;
+
+&lt;h1 id=&#34;waarom-containers&#34;&gt;&lt;strong&gt;Waarom Containers&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Indien we een programma willen installeren op een nieuwe server kunnen we dit manueel doen door in een terminal commando&amp;rsquo;s in te geven om bepaalde pakketten te installeren. Dit is geen goede manier omdat het moeilijk is om dit te doen op veel verschillende servers. Er kunnen stappen overgeslagen worden omdat er vaak geen documentatie bijgehouden wordt. Het is dan ook zeer moeilijk om op een server van iemand anders te weten wat er allemaal al reeds op gedaan is.&lt;/p&gt;
+
+&lt;p&gt;Een tweede manier is door de installatie en configuratie uit te laten voeren door een configuratiemanagement programma. Een nadeel hiervan is dat de persoon die hier mee werkt veel kennis moet hebben om dit programma te kunnen begrijpen.&lt;/p&gt;
+
+&lt;p&gt;Containers bieden de oplossing omdat ze volledig na te maken zijn en omdat er geen speciale kennis van een configuratiemanagement programma nodig is.&lt;/p&gt;
+
+&lt;h1 id=&#34;geschiedenis-van-containers&#34;&gt;&lt;strong&gt;Geschiedenis van containers&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Containers zijn niet nieuw, er waren al andere technologieën zoals:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Solaris&lt;/li&gt;
+&lt;li&gt;LXC&lt;/li&gt;
+&lt;li&gt;OpenVZ&lt;/li&gt;
+&lt;li&gt;BSD Jails&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Er is nu wel extra aandacht sinds Docker is uitgebracht.&lt;/p&gt;
+
+&lt;h1 id=&#34;containers-vs-virtuele-machines&#34;&gt;&lt;strong&gt;Containers vs. Virtuele Machines&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Een virtuele machine duurt lang om op te starten, meestal een aantal minuten en kan heel groot zijn. Een schijf van een virtuele machine is meestal minstens enkele GB&amp;rsquo;s groot. Dit komt omdat er een extra laag is tegenover een container, er dient telkens opnieuw een nieuwe besturingssysteem geïnstalleerd te worden bij elke nieuwe virtuele machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/virtual_machines.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Een container werkt anders, er wordt enkel een isolatie gedaan binnen dezelfde kernel of besturingssysteem. Het is daarom ook veel efficiënter en sneller, een nieuwe container opstarten duurt enkele seconden. Er kunnen ook limieten gesteld worden want een container heeft zijn eigen &amp;ldquo;namespaces&amp;rdquo;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Netwerk&lt;/li&gt;
+&lt;li&gt;Processenboom&lt;/li&gt;
+&lt;li&gt;Bestandssysteem&lt;/li&gt;
+&lt;li&gt;Gebruikers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Geheugen of processor limieten worden ingesteld met Cgroepen.&lt;/p&gt;
+
+&lt;p&gt;Ten laatste hebben containers slimmere bestandssystemen waardoor er verschillende lagen gedeeld kunnen worden tussen andere containers.&lt;/p&gt;
+
+&lt;h1 id=&#34;docker&#34;&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Docker maakt het mogelijk om containers te gebruiken met heel korte commando&amp;rsquo;s, dit is dus veel eenvoudiger dan vroeger.&lt;/p&gt;
+
+&lt;p&gt;Docker is ontstaan als een Platform-as-a-Service bedrijf, ze hadden hun eigen oplossing met een interne containertechnology ontwikkeld en hadden deze open source gemaakt. Wat ze niet verwacht hadden was dat Docker in een korte periode heel populair is geworden waardoor ze volledig omgeschakeld zijn van PaaS naar enkel nog Docker.&lt;/p&gt;
+
+&lt;p&gt;Docker heeft op dit moment enkele essentiële onderdelen namelijk:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker Engine: het proces om containers te kunnen doen draaien.&lt;/li&gt;
+&lt;li&gt;Images: dit zijn basissjablonen van systemen.&lt;/li&gt;
+&lt;li&gt;Containers: een image met een aanpasbare laag.&lt;/li&gt;
+&lt;li&gt;Registry: Een opslagplaats voor images van andere mensen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;demo&#34;&gt;&lt;strong&gt;Demo&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ten eerste hebben we Docker geïnstalleerd, dit was eenvoudig omdat er maar 1 commando nodig was omdat ik GNU/Linux gebruik.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; curl -sSL https://get.docker.com/ | sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Daarna hebben we enkele containers gestart.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -ti ubuntu bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Normaal gezien zou rm -rf een volledig besturingssysteem verwijderen maar in een Docker container is dit geen probleem omdat de container opnieuw aangemaakt kan worden in een paar seconden.&lt;/p&gt;
+
+&lt;p&gt;Daarna hebben we een drone doen opstijgen door enkele Twitter berichten te sturen.&lt;/p&gt;
+
+&lt;p&gt;Ten slotte hebben we met de hele groep een Docker Swarm aangemaakt. Dit is een cluster met containers. We hadden hiervoor elk een eigen virtuele machine in de cloud gekregen.&lt;/p&gt;
+
+&lt;h1 id=&#34;reflectie&#34;&gt;&lt;strong&gt;Reflectie&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ik had al eerder met Docker containers gewerkt, dat was ook de reden dat ik besloten had om naar dit seminarie te komen. Ik wilde graag meer weten wat er allemaal gedaan kon worden met containers.&lt;/p&gt;
+
+&lt;p&gt;Het was ook interessant om te zien dat de technologie om containers aan te maken al lang bestond maar dat het nu pas populair is geworden door de eenvoudigheid van Docker. Een gebruikersvriendelijke applicatie is dus vaak beter dan een efficiëntere maar onbruikbare applicatie.&lt;/p&gt;
+
+&lt;p&gt;Het gebruik van Docker Swarm deed mij ook realiseren dat er over de opslag van gegevens goed moet worden nagedacht omdat er heel veel containers aan dezelfde gegevens moeten kunnen geraken of misschien ook niet. Docker is ook enkel maar schaalbaar indien alle onderdelen kunnen schalen.&lt;/p&gt;
+
+&lt;p&gt;Tegenover de rest van de groep had ik als voordeel dat ik GNU/Linux op mijn laptop geïnstalleerd had, zij hadden Windows en moesten Docker in een virtuele machine draaien waar GNU/Linux op geïnstalleerd was.&lt;/p&gt;
+
+&lt;p&gt;Het voordeel van seminaries is dat er veel nieuwe theoretische kennis opgedaan kan worden maar omdat er tijdens dit seminarie een hands-on gedeelte was, was ik meer gemotiveerd om constant te volgen en te luisteren. Omdat ik meer gemotiveerd ben tijdens dit soort van seminaries hoop ik er op dat Hogeschool PXL zulke seminaries zal blijven aanbieden aan toekomstige studenten. Ook hoop ik dat toekomstige seminaries voor mij, als werknemer ook op deze manier zullen verlopen.&lt;/p&gt;
+
+&lt;p&gt;Ik weet zeker dat ik mijn kennis van Docker nog zal kunnen gebruiken tijdens mijn stage dus alles wat ik tijdens dit seminarie heb gezien zal ik zeker onthouden.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

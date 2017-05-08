@@ -22,7 +22,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Boekhouding-Informatica"
+  course = "SO Boekhouding-Informatica"
   institution = "Voorzienigheid Diest"
   year = 2014
 
@@ -32,10 +32,10 @@ weight = 1
 # Over mij
 ---
 
-Hallo, mijn naam is Samy Coenen. Op het moment van dit portfolio te schrijven ben ik 21 jaar oud en woon ik in Tessenderlo. Mijn hobby's zijn een combinatie van digitale technologiën en sport.
+Mijn naam is Samy Coenen, ik ben 21 jaar oud en woon in Tessenderlo.
 
-In 2014 ben ik gestart aan de opleiding professionele bachelor in de toegepaste informatica.
+In 2014 ben ik gestart met de opleiding professionele bachelor in de toegepaste informatica aan Hogeschool PXL in Hasselt, mijn gekozen afstudeerrichting is systemen- en netwerkbeheer.
 
-Sinds toen heb ik een breed assortiment aan verschillende programmeertalen en technologieën gezien tot nu, het einde van mijn Professionele Bachelor.
+Sinds toen heb ik een breed assortiment aan verschillende programmeertalen en technologieën gezien tot nu, het einde van mijn professionele bachelor.
 
-Nu zorgt het vak I-talent ervoor dat ik de kans heb om deze kennis in de praktijk toe te passen en nog meer professionele ervaringen op te doen.
+Nu zorgt het vak I-talent ervoor dat ik de kans krijg om deze kennis in de praktijk toe te passen en nog meer professionele ervaringen op te doen tijdens mijn studies.

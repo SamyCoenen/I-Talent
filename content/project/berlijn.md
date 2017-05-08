@@ -10,15 +10,8 @@ summary = '
 
 |            |                    | |
 | -----| ----------- | ------------------------------ |
-| 30 uur  | 15/03/2017 - 19/03/2017  | Niet zelf aangebracht          |
+| 30 uren  | 15/03/2017 - 19/03/2017  | Niet zelf aangebracht          |
 Tijdens deze schoolreis bezochten we Berlijn met zijn talrijke monumenten en culturele rijkdom maar ook de technologische bedrijven die zich hier hebben gevestigd.
-Activiteiten:
-
-- city-tour met de fiets
-- bezoek Computerspielmuseum
-- bedrijfsbezoek ImmobilienScout24
-- bezoek parlement
-
 '
 
 # Optional image to display on homepage (relative to `static/img/` folder).
@@ -43,3 +36,9 @@ preview = "berlin_parlement.jpg"
 caption = "Samy Coenen"
 
 +++
+Activiteiten:
+
+- city-tour met de fiets
+- bezoek Computerspielmuseum
+- bedrijfsbezoek ImmobilienScout24
+- bezoek parlement

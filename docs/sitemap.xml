@@ -4,8 +4,24 @@
     
     
     <url>
-      <loc>https://italent.samycoenen.be/project/bigdata/</loc>
-      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+      <loc>https://italent.samycoenen.be/project/droneport/</loc>
+      <lastmod>2017-05-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/pwc_security/</loc>
+      <lastmod>2017-05-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/smartict/</loc>
+      <lastmod>2017-04-30T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -13,6 +29,22 @@
     
     <url>
       <loc>https://italent.samycoenen.be/project/berlijn/</loc>
+      <lastmod>2017-04-18T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/delizioso/</loc>
+      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/bigdata/</loc>
       <lastmod>2017-04-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -28,8 +60,24 @@
     
     
     <url>
-      <loc>https://italent.samycoenen.be/project/delizioso/</loc>
-      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+      <loc>https://italent.samycoenen.be/project/aws_cloudar/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/datacenter_cegeka/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/big_data_eruption_accenture/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -37,6 +85,14 @@
     
     <url>
       <loc>https://italent.samycoenen.be/project/cloudmythes/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/containers_docker_gluo/</loc>
       <lastmod>2017-04-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -52,31 +108,7 @@
     
     
     <url>
-      <loc>https://italent.samycoenen.be/project/droneport/</loc>
-      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/project/pitchpizza/</loc>
-      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/project/smartict/</loc>
-      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/project/socialengineering/</loc>
+      <loc>https://italent.samycoenen.be/project/iot_emc-dell/</loc>
       <lastmod>2017-04-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -92,7 +124,15 @@
     
     
     <url>
-      <loc>https://italent.samycoenen.be/project/studiebuddynet/</loc>
+      <loc>https://italent.samycoenen.be/project/pitchpizza/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/portfolio/</loc>
       <lastmod>2017-04-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -108,8 +148,32 @@
     
     
     <url>
+      <loc>https://italent.samycoenen.be/project/socialengineering/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/project/studiebuddynet/</loc>
+      <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://italent.samycoenen.be/project/studiebuddyjava/</loc>
       <lastmod>2017-04-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/post/containers_docker/</loc>
+      <lastmod>2017-01-11T12:00:00+00:00</lastmod>
     </url>
     
   
@@ -156,40 +220,24 @@
     
     
     <url>
-      <loc>https://italent.samycoenen.be/post/getting-started/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+      <loc>https://italent.samycoenen.be/post/devops/</loc>
+      <lastmod>2016-11-30T12:00:00+00:00</lastmod>
     </url>
     
   
     
     
     <url>
-      <loc>https://italent.samycoenen.be/post/widgets/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
+      <loc>https://italent.samycoenen.be/post/cardiff/</loc>
+      <lastmod>2016-04-04T12:00:00+00:00</lastmod>
     </url>
     
   
     
     
     <url>
-      <loc>https://italent.samycoenen.be/post/managing-content/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <loc>https://italent.samycoenen.be/post/projectweek/</loc>
+      <lastmod>2016-02-15T11:00:00+00:00</lastmod>
     </url>
     
   
@@ -197,15 +245,6 @@
     
     <url>
       <loc>https://italent.samycoenen.be/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/tags/hugo/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -223,7 +262,7 @@
     
     <url>
       <loc>https://italent.samycoenen.be/tags/internationalisering/</loc>
-      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+      <lastmod>2017-04-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -231,8 +270,8 @@
     
     
     <url>
-      <loc>https://italent.samycoenen.be/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <loc>https://italent.samycoenen.be/tags/levenlang-leren/</loc>
+      <lastmod>2016-02-15T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -241,6 +280,15 @@
     
     <url>
       <loc>https://italent.samycoenen.be/tags/levenslang-leren/</loc>
+      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://italent.samycoenen.be/tags/portfolio/</loc>
       <lastmod>2017-04-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -250,7 +298,7 @@
     
     <url>
       <loc>https://italent.samycoenen.be/project/</loc>
-      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+      <lastmod>2017-05-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -267,16 +315,7 @@
     
     <url>
       <loc>https://italent.samycoenen.be/tags/seminaries/</loc>
-      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://italent.samycoenen.be/tags/studentenparticipatie/</loc>
-      <lastmod>2017-04-09T00:00:00+00:00</lastmod>
+      <lastmod>2017-05-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

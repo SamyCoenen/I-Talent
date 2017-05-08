@@ -10,9 +10,9 @@ summary = '
 
 |            |                    | |
 | -----| ----------- | ------------------------------ |
-| 30 uur  | 04/04/2016 - 08/04/2016  | Niet zelf aangebracht          |
+| 30 uren  | 04/04/2016 - 08/04/2016  | Niet zelf aangebracht          |
 
-Social media projectweek bij Cardiff Metropolitan University met 30 andere internationale studenten.
+Sociale media projectweek bij Cardiff Metropolitan University met 30 andere internationale studenten.
 '
 
 # Optional image to display on homepage (relative to `static/img/` folder).
@@ -20,7 +20,7 @@ image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Internationalisering","Uitgeschreven"]
+tags = ["Internationalisering"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -73,6 +73,8 @@ Hierna kregen we een kleine pauze gevolgd door een tweede seminarie door [Louise
 
 
 In de namiddag hebben we een uitstap gemaakt naar Cardiff Castle. We hebben hier een tweetal uur rondgelopen en foto’s gemaakt.
+
+![](../../img/cardiff/cardiff-groepsfoto.jpg)
 
 # Woensdag
 ## Seminarie

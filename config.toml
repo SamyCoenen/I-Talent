@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Samy Coenen"
-  role = "Student Toegepaste Informatica - Systemen en Netwerkbeheer"
+  role = "Student Toegepaste Informatica _ Systemen- en Netwerkbeheer"
   organization = "Hogeschool PXL"
   organization_url = "https://pxl.be"
   avatar = "profile.jpg"
@@ -149,18 +149,18 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Overzicht Professionele Activiteiten"
+  name = "Overzicht"
   url = "#projects"
   weight = 2
 
 [[menu.main]]
-  name = "Uitgeschreven Professionele Activiteiten"
-  url = "#posts"
+  name = "Selectie"
+  url = "#selectie"
   weight = 3
 
 [[menu.main]]
   name = "Eindreflectie"
-  url = "#eindreflectie"
+  url = "#reflectie"
   weight = 4
 
 [[menu.main]]

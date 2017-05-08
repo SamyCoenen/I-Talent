@@ -10,7 +10,7 @@ summary = '
 
 |            |                    | |
 | -----| ----------- | ------------------------------ |
-| 15 uur  | 22/12/2015  | Zelf aangebracht          |
+| 15 uren  | 22/12/2015  | Zelf aangebracht          |
 
 Ontwikkeling van casadelizioso.be.
 
@@ -24,7 +24,7 @@ image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Extern"]
+tags = ["Levenslang-leren"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://samycoenen.github.io/Delizioso/index.html"

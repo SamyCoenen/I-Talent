@@ -10,7 +10,7 @@ summary = '
 
 |            |                    | |
 | -----| ----------- | ------------------------------ |
-| 2 uur  | 11/05/2016  | Niet zelf aangebracht          |
+| 2 uren  | 11/05/2016  | Niet zelf aangebracht          |
 
 Seminarie gegeven door Chris Raymaekers van Cegeka in Hogeschool PXL.
 

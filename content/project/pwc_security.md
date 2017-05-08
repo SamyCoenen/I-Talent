@@ -10,7 +10,7 @@ summary = '
 
 |            |                    | |
 | -----| ----------- | ------------------------------ |
-| 3 uur  | 14/12/2016  | Niet zelf aangebracht          |
+| 3 uren  | 14/12/2016  | Niet zelf aangebracht          |
 
 Seminarie over security door Koen Burms van PwC in Hogeschool PXL.
 

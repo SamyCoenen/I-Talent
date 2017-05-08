@@ -11,801 +11,626 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Getting started with the Academic framework for Hugo</title>
-      <link>https://italent.samycoenen.be/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      <title>Containers &amp; Dockers / CI-CD</title>
+      <link>https://italent.samycoenen.be/post/containers_docker/</link>
+      <pubDate>Wed, 11 Jan 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://italent.samycoenen.be/post/getting-started/</guid>
+      <guid>https://italent.samycoenen.be/post/containers_docker/</guid>
       <description>
 
-&lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
+&lt;p&gt;Gegeven door: Steven Trescinski van Gluo&lt;/p&gt;
 
-&lt;p&gt;Key features:&lt;/p&gt;
+&lt;p&gt;Locatie: Corda Campus&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
-&lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
-&lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://italent.samycoenen.be/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
-&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
-&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
-&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;Easy to customize&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Datum: 11/01/2017&lt;/p&gt;
 
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/#installing-hugo&#34; target=&#34;_blank&#34;&gt;Install Hugo&lt;/a&gt; and create a new website by typing the following commands in your &lt;em&gt;Terminal&lt;/em&gt; or &lt;em&gt;Command Prompt&lt;/em&gt; app:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site my_website
-cd my_website
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Install Academic with &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/gcushen/hugo-academic.git themes/academic
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or alternatively, &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;download Academic&lt;/a&gt; and extract it into a &lt;code&gt;themes/academic&lt;/code&gt; folder within your Hugo website.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If you are creating a new website, copy the contents of the &lt;code&gt;exampleSite&lt;/code&gt; folder to your website root folder, overwriting existing files if necessary. The &lt;code&gt;exampleSite&lt;/code&gt; folder contains an example config file and content to help you get started.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cp -av themes/academic/exampleSite/* .
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Start the Hugo server from your website root folder:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server --watch
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now you can go to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website should appear.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Customize your website - refer to the &lt;em&gt;Getting Started&lt;/em&gt; section below&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt;. Or alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as your university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;Assuming you created a new website with the example content following the installation steps above, this section explores just a few more steps in order to customize it.&lt;/p&gt;
-
-&lt;h3 id=&#34;core-parameters&#34;&gt;Core parameters&lt;/h3&gt;
-
-&lt;p&gt;The core parameters for the website can be edited in the &lt;code&gt;config.toml&lt;/code&gt; configuration file:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Set &lt;code&gt;baseurl&lt;/code&gt; to your website URL (we recommend &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;GitHub Pages&lt;/a&gt; for free hosting)&lt;/li&gt;
-&lt;li&gt;Set &lt;code&gt;title&lt;/code&gt; to your desired website title such as your name&lt;/li&gt;
-&lt;li&gt;The example Disqus commenting variable should be cleared (e.g. &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt;) or set to your own &lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; shortname to enable commenting&lt;/li&gt;
-&lt;li&gt;Edit your details under &lt;code&gt;[params]&lt;/code&gt;; these will be displayed mainly in the homepage &lt;em&gt;about&lt;/em&gt; and &lt;em&gt;contact&lt;/em&gt; widgets (if used). To disable a contact field, simply clear the value to &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Place a square cropped portrait photo named &lt;code&gt;portrait.jpg&lt;/code&gt; into the &lt;code&gt;static/img/&lt;/code&gt; folder, overwriting any defaults. Alternatively, you can edit the &lt;code&gt;avatar&lt;/code&gt; filepath to point to a different image name or clear the value to disable the avatar feature.&lt;/li&gt;
-&lt;li&gt;To enable LaTeX math for your site, set &lt;code&gt;math = true&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Social/academic networking links are defined as multiples of &lt;code&gt;[[params.social]]&lt;/code&gt;. They can be created or deleted as necessary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;introduce-yourself&#34;&gt;Introduce yourself&lt;/h3&gt;
-
-&lt;p&gt;Edit your biography in the &lt;em&gt;about&lt;/em&gt; widget &lt;code&gt;content/home/about.md&lt;/code&gt; that you copied across from the &lt;code&gt;themes/academic/exampleSite/&lt;/code&gt; folder. The research interests and qualifications are stored as &lt;code&gt;interests&lt;/code&gt; and &lt;code&gt;education&lt;/code&gt; variables. The academic qualifications are defined as multiples of &lt;code&gt;[[education.courses]]&lt;/code&gt; and can be created or deleted as necessary. It&amp;rsquo;s possible to completely hide the interests and education lists by deleting their respective variables.&lt;/p&gt;
-
-&lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
-
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://italent.samycoenen.be/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
-
-&lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
-
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://italent.samycoenen.be/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
-
-&lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://italent.samycoenen.be/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
-
-&lt;p&gt;Continue reading below for advanced customization tips and instructions for keeping the framework up-to-date with any improvements that become available.&lt;/p&gt;
-
-&lt;h2 id=&#34;advanced-customization&#34;&gt;Advanced customization&lt;/h2&gt;
-
-&lt;p&gt;It is possible to carry out many customizations without touching any files in &lt;code&gt;themes/academic&lt;/code&gt;, making it easier to upgrade the framework in the future.&lt;/p&gt;
-
-&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation menu&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code&gt;[[menu.main]]&lt;/code&gt; entries towards the bottom of &lt;code&gt;config.toml&lt;/code&gt; define the navigation links at the top of the website. They can be added or removed as desired.&lt;/p&gt;
-
-&lt;p&gt;To create a dropdown sub-menu, add &lt;code&gt;identifier = &amp;quot;something&amp;quot;&lt;/code&gt; to the parent item and &lt;code&gt;parent = &amp;quot;something&amp;quot;&lt;/code&gt; to the child item.&lt;/p&gt;
-
-&lt;h3 id=&#34;website-icon&#34;&gt;Website icon&lt;/h3&gt;
-
-&lt;p&gt;Save your main icon and mobile icon as square PNG images named &lt;code&gt;icon.png&lt;/code&gt; and &lt;code&gt;apple-touch-icon.png&lt;/code&gt;, respectively. Place them in your root &lt;code&gt;static/img/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;h3 id=&#34;theme-color-css&#34;&gt;Theme color (CSS)&lt;/h3&gt;
-
-&lt;p&gt;You can link custom CSS assets (relative to your root &lt;code&gt;static/css&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_css = [&amp;quot;custom.css&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;For example, lets make a green theme. First, define &lt;code&gt;custom_css = [&amp;quot;green.css&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. Then we can download the example &lt;a href=&#34;https://gist.github.com/gcushen/d5525a4506b9ccf83f2bce592a895495&#34; target=&#34;_blank&#34;&gt;green theme&lt;/a&gt; and save it as &lt;code&gt;static/css/green.css&lt;/code&gt;, relative to your website root (i.e. &lt;strong&gt;not&lt;/strong&gt; in the &lt;code&gt;themes&lt;/code&gt; directory).&lt;/p&gt;
-
-&lt;h3 id=&#34;analytics&#34;&gt;Analytics&lt;/h3&gt;
-
-&lt;p&gt;To enable &lt;a href=&#34;http://www.google.com/analytics&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, add your tracking code in &lt;code&gt;config.toml&lt;/code&gt; similarly to &lt;code&gt;googleAnalytics = &amp;quot;UA-12345678-9&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;third-party-and-local-scripts-js&#34;&gt;Third party and local scripts (JS)&lt;/h3&gt;
-
-&lt;p&gt;To add a third party script, create a file named &lt;code&gt;head_custom.html&lt;/code&gt; in a &lt;code&gt;layouts/partials/&lt;/code&gt; folder at the root of your website (not in the &lt;code&gt;themes&lt;/code&gt; folder). Any HTML code added to this file will be included within your website&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Therefore, it&amp;rsquo;s suitable for adding custom metadata or third party scripts specified with the &lt;em&gt;async&lt;/em&gt; attribute.&lt;/p&gt;
-
-&lt;p&gt;Whereas for your own local scripts, you can link your local JS assets (relative to your root &lt;code&gt;static/js&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_js  = [&amp;quot;custom.js&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;language-and-translation&#34;&gt;Language and translation&lt;/h3&gt;
-
-&lt;p&gt;The interface text (e.g. buttons) is stored in language files which are collected from Academic&amp;rsquo;s &lt;code&gt;themes/academic/i18n/&lt;/code&gt; folder, as well as an &lt;code&gt;i18n/&lt;/code&gt; folder at the root of your project.&lt;/p&gt;
-
-&lt;p&gt;To edit the interface text, copy &lt;code&gt;themes/academic/i18n/en.yaml&lt;/code&gt; to &lt;code&gt;i18n/en.yaml&lt;/code&gt; (relative to the root of your website). Open the new file and make any desired changes to the text appearing after &lt;code&gt;translation:&lt;/code&gt;. Note that the language files are formatted in YAML syntax.&lt;/p&gt;
-
-&lt;p&gt;To translate the interface text to another language, follow the above instructions, but name the new file in the form &lt;code&gt;i18n/X.yaml&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then follow the brief instructions in the &lt;em&gt;Language&lt;/em&gt; section at the bottom of your &lt;code&gt;config.toml&lt;/code&gt;. To change the default language used by Academic, set &lt;code&gt;defaultContentLanguage&lt;/code&gt; to the desired language identifier in your configuration file.&lt;/p&gt;
-
-&lt;p&gt;To translate the navigation bar, you can edit the default &lt;code&gt;[[menu.main]]&lt;/code&gt; instances in &lt;code&gt;config.toml&lt;/code&gt;. However, for a multilingual site, you will need to duplicate all of the &lt;code&gt;[[menu.main]]&lt;/code&gt; instances and rename the new instances from &lt;code&gt;[[menu.main]]&lt;/code&gt; to &lt;code&gt;[[languages.X.menu.main]]&lt;/code&gt;, where &lt;code&gt;X&lt;/code&gt; is the language identifier (e.g. &lt;code&gt;[[languages.zh.menu.main]]&lt;/code&gt; for Simplified Chinese). Thus, the navigation bar can be displayed in multiple languages.&lt;/p&gt;
-
-&lt;p&gt;To translate a content file in your &lt;code&gt;content/&lt;/code&gt; folder into another language, copy the file to &lt;code&gt;filename.X.md&lt;/code&gt; where &lt;code&gt;filename&lt;/code&gt; is your existing filename and &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then translate the content in the new file to the specified language.&lt;/p&gt;
-
-&lt;p&gt;For further details on Hugo&amp;rsquo;s internationalization and multilingual features, refer to the &lt;a href=&#34;https://gohugo.io/content/multilingual/&#34; target=&#34;_blank&#34;&gt;associated Hugo documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;permalinks&#34;&gt;Permalinks&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Permalinks&lt;/em&gt;, or &lt;em&gt;permanent links&lt;/em&gt;, are URLs to individual pages and posts on your website. They are permanent web addresses which can be used to link to your content. Using Hugo&amp;rsquo;s &lt;em&gt;permalinks&lt;/em&gt; option these can be easily customized. For example, the blog post URL can be changed to the form &lt;em&gt;yourURL/2016/05/01/my-post-slug&lt;/em&gt; by adding the following near the top of your &lt;code&gt;config.toml&lt;/code&gt; (before &lt;code&gt;[params]&lt;/code&gt; settings):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[permalinks]
-    post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Where &lt;code&gt;:slug&lt;/code&gt; defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting &lt;code&gt;slug = &amp;quot;my-short-post-title&amp;quot;&lt;/code&gt; in your post preamble.&lt;/p&gt;
-
-&lt;h2 id=&#34;upgrading&#34;&gt;Upgrading&lt;/h2&gt;
-
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; and monitor the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/commits/master&#34; target=&#34;_blank&#34;&gt;commits&lt;/a&gt; for updates.&lt;/p&gt;
-
-&lt;p&gt;Before upgrading the framework, it is recommended to make a backup of your entire website directory, or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory. You can also read about the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/releases&#34; target=&#34;_blank&#34;&gt;most recent milestones&lt;/a&gt; (but this doesn&amp;rsquo;t necessarily reflect the latest &lt;em&gt;master&lt;/em&gt; release).&lt;/p&gt;
-
-&lt;p&gt;Before upgrading for the first time, the remote &lt;em&gt;origin&lt;/em&gt; repository should be renamed to &lt;em&gt;upstream&lt;/em&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cd themes/academic
-$ git remote rename origin upstream
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To list available updates:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ cd themes/academic
-$ git fetch upstream
-$ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then, upgrade by running:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git pull upstream
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you have modified files in &lt;code&gt;themes/academic&lt;/code&gt;, git will attempt to auto-merge changes. If conflicts are reported, you will need to manually edit the files with conflicts and add them back (&lt;code&gt;git add &amp;lt;filename&amp;gt;&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;If there are any issues after upgrading, you may wish to compare your site with the latest &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;example site&lt;/a&gt; to check if any settings changed.&lt;/p&gt;
-
-&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
-
-&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
-
-&lt;p&gt;For general questions about Hugo, there is a &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;Copyright 2016 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Customizing the homepage with widgets</title>
-      <link>https://italent.samycoenen.be/post/widgets/</link>
-      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/post/widgets/</guid>
-      <description>
-
-&lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;About/biography&lt;/li&gt;
-&lt;li&gt;Selected publications&lt;/li&gt;
-&lt;li&gt;Recent publications&lt;/li&gt;
-&lt;li&gt;Recent news/blog posts&lt;/li&gt;
-&lt;li&gt;Projects&lt;/li&gt;
-&lt;li&gt;Selected talks&lt;/li&gt;
-&lt;li&gt;Recent talks&lt;/li&gt;
-&lt;li&gt;Contact&lt;/li&gt;
-&lt;li&gt;Custom widget (demonstrated with the &lt;em&gt;teaching&lt;/em&gt; example)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.&lt;/p&gt;
-
-&lt;p&gt;The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of &lt;code&gt;+++&lt;/code&gt;) for each widget installed in the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting &lt;code&gt;detailed_list = true&lt;/code&gt; in &lt;code&gt;content/home/publications.md&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;add-a-widget-to-the-homepage&#34;&gt;Add a widget to the homepage&lt;/h2&gt;
-
-&lt;p&gt;To add a widget manually, copy the relevant widget from &lt;code&gt;themes/academic/exampleSite/content/home/&lt;/code&gt; to your &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Widget identifiers are set to their respective filenames, so a &lt;code&gt;content/home/about.md&lt;/code&gt; widget can be linked from the navigation bar by setting the relevant URL as &lt;code&gt;&amp;quot;#about&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.&lt;/p&gt;
-
-&lt;h2 id=&#34;using-the-custom-widget&#34;&gt;Using the custom widget&lt;/h2&gt;
-
-&lt;p&gt;You can use the custom widget to create your own home page sections.&lt;/p&gt;
-
-&lt;p&gt;Simply duplicate (copy/paste) and rename the example &lt;em&gt;teaching&lt;/em&gt; file at &lt;code&gt;content/home/teaching.md&lt;/code&gt;. Then edit the section title, weight (refer to &lt;em&gt;Ordering sections&lt;/em&gt; below), and content as desired.&lt;/p&gt;
-
-&lt;p&gt;You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your &lt;code&gt;config.toml&lt;/code&gt;, where the URL will consist of the first title word in lowercase:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[menu.main]]
-    name = &amp;quot;Research&amp;quot;
-    url = &amp;quot;#research&amp;quot;
-    weight = 10
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;remove-a-widget-from-the-homepage&#34;&gt;Remove a widget from the homepage&lt;/h2&gt;
-
-&lt;p&gt;If you do not require a particular widget, you can simply delete any associated files from the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;To remove a navigation link from the top of the page, remove the associated &lt;code&gt;[[menu.main]]&lt;/code&gt; entry in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
-
-&lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Managing content</title>
-      <link>https://italent.samycoenen.be/post/managing-content/</link>
-      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://italent.samycoenen.be/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://italent.samycoenen.be/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
-
-&lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[header]
-image = &amp;quot;headers/getting-started.png&amp;quot;
-caption = &amp;quot;Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)&amp;quot;
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;If you wish to prevent a featured image automatically being used for a post&amp;rsquo;s thumbnail on the homepage, the &lt;code&gt;preview = false&lt;/code&gt; parameter can be added to &lt;code&gt;[header]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;create-a-publication&#34;&gt;Create a publication&lt;/h2&gt;
-
-&lt;p&gt;To create a new publication:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new publication/my-paper-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the default variables at the top of &lt;code&gt;content/publication/my-paper-name.md&lt;/code&gt; to include the details of your publication. The &lt;code&gt;url_&lt;/code&gt; variables are used to generate links associated with your publication, such as for viewing PDFs of papers. Here is an example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;+++
-abstract = &amp;quot;An abstract...&amp;quot;
-authors = [&amp;quot;First author&#39;s name&amp;quot;, &amp;quot;Second author&#39;s name&amp;quot;]
-date = &amp;quot;2013-07-01&amp;quot;
-image = &amp;quot;&amp;quot;
-image_preview = &amp;quot;&amp;quot;
-math = false
-publication = &amp;quot;The publishing part of the citation goes here. You may use *Markdown* for italics etc.&amp;quot;
-title = &amp;quot;A publication title, such as title of a paper&amp;quot;
-url_code = &amp;quot;&amp;quot;
-url_dataset = &amp;quot;&amp;quot;
-url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;
-url_project = &amp;quot;&amp;quot;
-url_slides = &amp;quot;&amp;quot;
-url_video = &amp;quot;&amp;quot;
-+++
-
-Further details on your publication can be written here using *Markdown* for formatting. This text will be displayed on the Publication Detail page.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;url_&lt;/code&gt; links can either point to local or web content. Associated local publication content, such as PDFs, may be copied to a &lt;code&gt;static/pdf/&lt;/code&gt; folder and referenced like &lt;code&gt;url_pdf = &amp;quot;pdf/my-paper-name.pdf&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can also associate custom link buttons with the publication by adding the following block(s) within the variable preamble above, which is denoted by &lt;code&gt;+++&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[url_custom]]
-    name = &amp;quot;Custom Link&amp;quot;
-    url = &amp;quot;http://www.example.org&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you enabled &lt;code&gt;detailed_list&lt;/code&gt; for publications in &lt;code&gt;config.toml&lt;/code&gt;, then there are a few more optional variables that you can include in the publication page preamble. You may use &lt;code&gt;abstract_short = &amp;quot;friendly summary of abstract&amp;quot;&lt;/code&gt; and &lt;code&gt;publication_short = &amp;quot;abbreviated publication details&amp;quot;&lt;/code&gt; to display a friendly summary of the abstract and abbreviate the publication details, respectively. Furthermore, there is the option to display a different image on the homepage to the publication detail page by setting &lt;code&gt;image_preview = &amp;quot;my-image.jpg&amp;quot;&lt;/code&gt;. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;Any double quotes (&lt;code&gt;&amp;quot;&lt;/code&gt;) or backslashes (e.g. LaTeX &lt;code&gt;\times&lt;/code&gt;) occurring within the value of any frontmatter parameter (such as the &lt;em&gt;abstract&lt;/em&gt;) should be escaped with a backslash (&lt;code&gt;\&lt;/code&gt;). For example, the symbol &lt;code&gt;&amp;quot;&lt;/code&gt; and LaTeX text &lt;code&gt;\times&lt;/code&gt; become &lt;code&gt;\&amp;quot;&lt;/code&gt; and &lt;code&gt;\\times&lt;/code&gt;, respectively. Refer to the &lt;a href=&#34;https://github.com/toml-lang/toml#user-content-string&#34; target=&#34;_blank&#34;&gt;TOML documentation&lt;/a&gt; for more info.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;post-an-article&#34;&gt;Post an article&lt;/h2&gt;
-
-&lt;p&gt;To create a blog/news article:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new post/my-article-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the newly created file &lt;code&gt;content/post/my-article-name.md&lt;/code&gt; with your full title and content.&lt;/p&gt;
-
-&lt;p&gt;Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing &lt;code&gt;&amp;#60;&amp;#33;&amp;#45;&amp;#45;more&amp;#45;&amp;#45;&amp;#62;&lt;/code&gt; in the article body, or completely override the automated summary by adding a &lt;code&gt;summary&lt;/code&gt; parameter to the &lt;code&gt;+++&lt;/code&gt; preamble such that:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;summary = &amp;quot;Summary of my post.&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To disable commenting for a specific post, you can add &lt;code&gt;disable_comments = true&lt;/code&gt; to the post &lt;code&gt;+++&lt;/code&gt; preamble. Or to disable commenting for all posts, you can either set &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt; or &lt;code&gt;disable_comments = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-a-project&#34;&gt;Create a project&lt;/h2&gt;
-
-&lt;p&gt;To create a project:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new project/my-project-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the newly created file &lt;code&gt;content/project/my-project-name.md&lt;/code&gt;. Either you can link the project to an external project website by setting the &lt;code&gt;external_link = &amp;quot;http://external-project.com&amp;quot;&lt;/code&gt; variable at the top of the file, or you can add content (below the final &lt;code&gt;+++&lt;/code&gt;) in order to render a project page on your website.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-a-talk&#34;&gt;Create a talk&lt;/h2&gt;
-
-&lt;p&gt;To create a talk:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new talk/my-talk-name.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then edit the newly created file &lt;code&gt;content/talk/my-talk-name.md&lt;/code&gt; with your full talk title and details. Note that many of the talk parameters are similar to the publication parameters.&lt;/p&gt;
-
-&lt;h2 id=&#34;manage-node-index-pages&#34;&gt;Manage node index pages&lt;/h2&gt;
-
-&lt;p&gt;The node index pages (e.g. &lt;code&gt;/post/&lt;/code&gt;) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don&amp;rsquo;t have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.&lt;/p&gt;
-
-&lt;p&gt;You can edit the title and add your own content, such as an introduction, by creating and editing the following content files for the node indexes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new post/_index.md
-hugo new publication/_index.md
-hugo new talk/_index.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then remove all parameters except for &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;math&lt;/code&gt;, &lt;code&gt;highlight&lt;/code&gt;, and &lt;code&gt;date&lt;/code&gt;. Edit the &lt;code&gt;title&lt;/code&gt; parameter as desired and add any content after the &lt;code&gt;+++&lt;/code&gt; preamble/frontmatter ends. For example, you should have something similar to:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
-title = &amp;quot;List of my posts&amp;quot;
-date = &amp;quot;2017-01-01T00:00:00Z&amp;quot;
-math = false
-highlight = false
-+++
-
-Below is an automatically generated list of all my blog posts!
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;removing-content&#34;&gt;Removing content&lt;/h2&gt;
-
-&lt;p&gt;Generally, to remove content, simply delete the relevant file from your &lt;code&gt;content/post&lt;/code&gt;, &lt;code&gt;content/publication&lt;/code&gt;, &lt;code&gt;content/project&lt;/code&gt;, or &lt;code&gt;content/talk&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;h2 id=&#34;view-your-updated-site&#34;&gt;View your updated site&lt;/h2&gt;
-
-&lt;p&gt;After you have made changes to your site, you can view it by running the &lt;code&gt;hugo server --watch&lt;/code&gt; command and then opening &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; in your web browser.&lt;/p&gt;
-
-&lt;h2 id=&#34;deploy-your-site&#34;&gt;Deploy your site&lt;/h2&gt;
-
-&lt;p&gt;Finally, you can build the static website to a &lt;code&gt;public/&lt;/code&gt; folder ready for deployment using the &lt;code&gt;hugo&lt;/code&gt; command.&lt;/p&gt;
-
-&lt;p&gt;You may then deploy your site by copying the &lt;code&gt;public/&lt;/code&gt; directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.&lt;/p&gt;
-
-&lt;p&gt;Note that running &lt;code&gt;hugo&lt;/code&gt; does not remove any previously generated files before building. Therefore, it&amp;rsquo;s best practice to delete your &lt;code&gt;public/&lt;/code&gt; directory prior to running &lt;code&gt;hugo&lt;/code&gt; to ensure no old or interim files are deployed to your server.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>https://italent.samycoenen.be/post/writing-markdown-latex/</link>
-      <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/post/writing-markdown-latex/</guid>
-      <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
-
-&lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;Italics with *asterisks* or _underscores_.
-
-Bold with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough with ~~two tildes~~.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;ordered-lists&#34;&gt;Ordered lists&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;1. First item
-2. Another item
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;unordered-lists&#34;&gt;Unordered lists&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;* First item
-* Another item
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;Images may be added to a page by placing them in your &lt;code&gt;static/img/&lt;/code&gt; folder and referencing them using one of the following two notations:&lt;/p&gt;
-
-&lt;p&gt;A general image:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;![alternative text for search engines](/img/screenshot.png)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A numbered figure with caption:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;/img/screenshot.png&amp;quot; title=&amp;quot;Figure Caption&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;[I&#39;m a link](https://www.google.com)
-[A post]({{&amp;lt; ref &amp;quot;post/hi.md&amp;quot; &amp;gt;}})
-[A publication]({{&amp;lt; ref &amp;quot;publication/hi.md&amp;quot; &amp;gt;}})
-[A project]({{&amp;lt; ref &amp;quot;project/hi.md&amp;quot; &amp;gt;}})
-[Another section]({{&amp;lt; relref &amp;quot;hi.md#who&amp;quot; &amp;gt;}})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;emojis&#34;&gt;Emojis&lt;/h2&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;http://www.webpagefx.com/tools/emoji-cheat-sheet/&#34; target=&#34;_blank&#34;&gt;Emoji cheat sheet&lt;/a&gt; for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;I : heart : Academic : smile :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I ❤️ Academic 😄&lt;/p&gt;
-
-&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;gt; This is a blockquote.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This is a blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;footnotes&#34;&gt;Footnotes&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;I have more [^1] to say.
-
-[^1]: Footnote example.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I have more &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; to say.&lt;/p&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code highlighting&lt;/h2&gt;
-
-&lt;p&gt;Pass the &lt;em&gt;language&lt;/em&gt; of the code, such as &lt;code&gt;python&lt;/code&gt;, as a parameter after three backticks:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;```python
-# Example of code highlighting
-input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
-print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
-```
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Example of code highlighting
-input_string_var = input(&amp;quot;Enter some data: &amp;quot;)
-print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;highlighting-options&#34;&gt;Highlighting options&lt;/h3&gt;
-
-&lt;p&gt;The Academic theme uses &lt;a href=&#34;https://highlightjs.org&#34; target=&#34;_blank&#34;&gt;highlight.js&lt;/a&gt; for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.&lt;/p&gt;
-
-&lt;p&gt;The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;config.toml&lt;/strong&gt; column means the value can be set globally in &lt;code&gt;config.toml&lt;/code&gt;, and a &amp;ldquo;yes&amp;rdquo; in the &lt;strong&gt;preamble&lt;/strong&gt; column means that the value can be set locally in a particular page&amp;rsquo;s preamble.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;option&lt;/th&gt;
-&lt;th&gt;type&lt;/th&gt;
-&lt;th&gt;description&lt;/th&gt;
-&lt;th&gt;config.toml&lt;/th&gt;
-&lt;th&gt;preamble&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;boolean&lt;/td&gt;
-&lt;td&gt;enable/disable highlighting&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight_languages&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;slice&lt;/td&gt;
-&lt;td&gt;choose additional languages&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight_style&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;string&lt;/td&gt;
-&lt;td&gt;choose a highlighting style&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;highlight_version&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;string&lt;/td&gt;
-&lt;td&gt;choose the highlight.js version&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&#34;option-highlight&#34;&gt;Option &lt;code&gt;highlight&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight&lt;/code&gt; option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified &lt;code&gt;highlight = true&lt;/code&gt;. That is, the highlight.js javascript and css files will be included in every page. If you&amp;rsquo;d like to only include highlight.js files on pages that actually require source code highlighting, you can set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;, and then override it by setting &lt;code&gt;highlight = true&lt;/code&gt; in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of &lt;code&gt;highlight&lt;/code&gt; set in &lt;code&gt;config.toml&lt;/code&gt; and/or the page&amp;rsquo;s preamble.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;config.toml&lt;/th&gt;
-&lt;th&gt;page preamble&lt;/th&gt;
-&lt;th&gt;highlighting enabled for page?&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;unset or true&lt;/td&gt;
-&lt;td&gt;unset or true&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;unset or true&lt;/td&gt;
-&lt;td&gt;false&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;false&lt;/td&gt;
-&lt;td&gt;unset or false&lt;/td&gt;
-&lt;td&gt;no&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;false&lt;/td&gt;
-&lt;td&gt;true&lt;/td&gt;
-&lt;td&gt;yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&#34;option-highlight-languages&#34;&gt;Option &lt;code&gt;highlight_languages&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option allows you to specify additional languages that are supported by highlight.js, but are not considered &amp;ldquo;common&amp;rdquo; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;, &amp;quot;clojure&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. If, on the other hand, you want to enable a language only for a specific page, you can set &lt;code&gt;highlight_languages&lt;/code&gt; in that page&amp;rsquo;s preamble.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; options specified in &lt;code&gt;config.toml&lt;/code&gt; and in a page&amp;rsquo;s preamble are additive. That is, if &lt;code&gt;config.toml&lt;/code&gt; contains, &lt;code&gt;highlight_languages = [&amp;quot;go&amp;quot;]&lt;/code&gt; and the page&amp;rsquo;s preamble contains &lt;code&gt;highlight_languages = [&amp;quot;ocaml&amp;quot;]&lt;/code&gt;, then javascript files for &lt;em&gt;both&lt;/em&gt; go and ocaml will be included for that page.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://italent.samycoenen.be/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set &lt;code&gt;highlight_style = &amp;quot;solarized-dark&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option is unset, the default is to use the file &lt;code&gt;/css/highlight.min.css&lt;/code&gt;, either the one provided by the Academic theme, or else the one in your local &lt;code&gt;static&lt;/code&gt; directory.  The &lt;code&gt;/css/highlight.min.css&lt;/code&gt; file provided by Academic is equivalent to the &lt;code&gt;github&lt;/code&gt; style from highlight.js.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;code&gt;highlight_style&lt;/code&gt; option &lt;em&gt;is&lt;/em&gt; set, then &lt;code&gt;/css/highlight.min.css&lt;/code&gt; is ignored, and the corresponding css file will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available styles, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;styles&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; for examples of available styles.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Not all styles listed on the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; are available from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. If you want to use a style that is not served by cdnjs, just leave &lt;code&gt;highlight_style&lt;/code&gt; unset, and place the corresponding css file in &lt;code&gt;/static/css/highlight.min.css&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;If you don&amp;rsquo;t want to change the default style that ships with Academic but you do want the style file served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;, set &lt;code&gt;highlight_style = &amp;quot;github&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;The &lt;code&gt;highlight_style&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_style&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
-
-&lt;h4 id=&#34;option-highlight-version&#34;&gt;Option &lt;code&gt;highlight_version&lt;/code&gt;&lt;/h4&gt;
-
-&lt;p&gt;The &lt;code&gt;highlight_version&lt;/code&gt; option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is &amp;ldquo;9.9.0&amp;rdquo;. The &lt;code&gt;highlight_version&lt;/code&gt; option is only recognized when set in &lt;code&gt;config.toml&lt;/code&gt;. Setting &lt;code&gt;highlight_version&lt;/code&gt; in your page&amp;rsquo;s preamble has no effect.&lt;/p&gt;
-
-&lt;h2 id=&#34;twitter-tweet&#34;&gt;Twitter tweet&lt;/h2&gt;
-
-&lt;p&gt;To include a single tweet, pass the tweet’s ID from the tweet&amp;rsquo;s URL as parameter to the shortcode:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet 666616452582129664 &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;vimeo&#34;&gt;Vimeo&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;github-gist&#34;&gt;GitHub gist&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist USERNAME GIST-ID  &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;speaker-deck&#34;&gt;Speaker Deck&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; speakerdeck 4e8126e72d853c0060001f97 &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;rm-latex-math&#34;&gt;$\rm \LaTeX$ math&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-TeX&#34;&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$&lt;/p&gt;
-
-&lt;p&gt;Alternatively, inline math can be written by wrapping the formula with only a single &lt;code&gt;$&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$&lt;/p&gt;
-
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
-
-&lt;p&gt;Code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Markdown&#34;&gt;| Command           | Description                    |
-| ------------------| ------------------------------ |
-| `hugo`            | Build your website.            |
-| `hugo serve -w`   | View your website.             |
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Command&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Build your website.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;hugo serve -w&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;View your website.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;alerts&#34;&gt;Alerts&lt;/h2&gt;
-
-&lt;p&gt;Alerts are a useful feature that add side content such as tips, notes, or warnings to your articles. They are especially handy when writing educational tutorial-style articles. Use the corresponding shortcodes to enable alerts inside your content:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% alert note %}}
-Here&#39;s a tip or note...
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will display the following &lt;em&gt;note&lt;/em&gt; block:&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Here&amp;rsquo;s a tip or note&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;pre&gt;&lt;code&gt;{{% alert warning %}}
-Here&#39;s some important information...
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will display the following &lt;em&gt;warning&lt;/em&gt; block:&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;Here&amp;rsquo;s some important information&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&#34;footnotes&#34;&gt;
+&lt;h1 id=&#34;waarom-containers&#34;&gt;&lt;strong&gt;Waarom Containers&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;Footnote example.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
+&lt;p&gt;Indien we een programma willen installeren op een nieuwe server kunnen we dit manueel doen door in een terminal commando&amp;rsquo;s in te geven om bepaalde pakketten te installeren. Dit is geen goede manier omdat het moeilijk is om dit te doen op veel verschillende servers. Er kunnen stappen overgeslagen worden omdat er vaak geen documentatie bijgehouden wordt. Het is dan ook zeer moeilijk om op een server van iemand anders te weten wat er allemaal al reeds op gedaan is.&lt;/p&gt;
+
+&lt;p&gt;Een tweede manier is door de installatie en configuratie uit te laten voeren door een configuratiemanagement programma. Een nadeel hiervan is dat de persoon die hier mee werkt veel kennis moet hebben om dit programma te kunnen begrijpen.&lt;/p&gt;
+
+&lt;p&gt;Containers bieden de oplossing omdat ze volledig na te maken zijn en omdat er geen speciale kennis van een configuratiemanagement programma nodig is.&lt;/p&gt;
+
+&lt;h1 id=&#34;geschiedenis-van-containers&#34;&gt;&lt;strong&gt;Geschiedenis van containers&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Containers zijn niet nieuw, er waren al andere technologieën zoals:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Solaris&lt;/li&gt;
+&lt;li&gt;LXC&lt;/li&gt;
+&lt;li&gt;OpenVZ&lt;/li&gt;
+&lt;li&gt;BSD Jails&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Er is nu wel extra aandacht sinds Docker is uitgebracht.&lt;/p&gt;
+
+&lt;h1 id=&#34;containers-vs-virtuele-machines&#34;&gt;&lt;strong&gt;Containers vs. Virtuele Machines&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Een virtuele machine duurt lang om op te starten, meestal een aantal minuten en kan heel groot zijn. Een schijf van een virtuele machine is meestal minstens enkele GB&amp;rsquo;s groot. Dit komt omdat er een extra laag is tegenover een container, er dient telkens opnieuw een nieuwe besturingssysteem geïnstalleerd te worden bij elke nieuwe virtuele machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/virtual_machines.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Een container werkt anders, er wordt enkel een isolatie gedaan binnen dezelfde kernel of besturingssysteem. Het is daarom ook veel efficiënter en sneller, een nieuwe container opstarten duurt enkele seconden. Er kunnen ook limieten gesteld worden want een container heeft zijn eigen &amp;ldquo;namespaces&amp;rdquo;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Netwerk&lt;/li&gt;
+&lt;li&gt;Processenboom&lt;/li&gt;
+&lt;li&gt;Bestandssysteem&lt;/li&gt;
+&lt;li&gt;Gebruikers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Geheugen of processor limieten worden ingesteld met Cgroepen.&lt;/p&gt;
+
+&lt;p&gt;Ten laatste hebben containers slimmere bestandssystemen waardoor er verschillende lagen gedeeld kunnen worden tussen andere containers.&lt;/p&gt;
+
+&lt;h1 id=&#34;docker&#34;&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Docker maakt het mogelijk om containers te gebruiken met heel korte commando&amp;rsquo;s, dit is dus veel eenvoudiger dan vroeger.&lt;/p&gt;
+
+&lt;p&gt;Docker is ontstaan als een Platform-as-a-Service bedrijf, ze hadden hun eigen oplossing met een interne containertechnology ontwikkeld en hadden deze open source gemaakt. Wat ze niet verwacht hadden was dat Docker in een korte periode heel populair is geworden waardoor ze volledig omgeschakeld zijn van PaaS naar enkel nog Docker.&lt;/p&gt;
+
+&lt;p&gt;Docker heeft op dit moment enkele essentiële onderdelen namelijk:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docker Engine: het proces om containers te kunnen doen draaien.&lt;/li&gt;
+&lt;li&gt;Images: dit zijn basissjablonen van systemen.&lt;/li&gt;
+&lt;li&gt;Containers: een image met een aanpasbare laag.&lt;/li&gt;
+&lt;li&gt;Registry: Een opslagplaats voor images van andere mensen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;demo&#34;&gt;&lt;strong&gt;Demo&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ten eerste hebben we Docker geïnstalleerd, dit was eenvoudig omdat er maar 1 commando nodig was omdat ik GNU/Linux gebruik.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; curl -sSL https://get.docker.com/ | sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Daarna hebben we enkele containers gestart.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -ti ubuntu bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Normaal gezien zou rm -rf een volledig besturingssysteem verwijderen maar in een Docker container is dit geen probleem omdat de container opnieuw aangemaakt kan worden in een paar seconden.&lt;/p&gt;
+
+&lt;p&gt;Daarna hebben we een drone doen opstijgen door enkele Twitter berichten te sturen.&lt;/p&gt;
+
+&lt;p&gt;Ten slotte hebben we met de hele groep een Docker Swarm aangemaakt. Dit is een cluster met containers. We hadden hiervoor elk een eigen virtuele machine in de cloud gekregen.&lt;/p&gt;
+
+&lt;h1 id=&#34;reflectie&#34;&gt;&lt;strong&gt;Reflectie&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ik had al eerder met Docker containers gewerkt, dat was ook de reden dat ik besloten had om naar dit seminarie te komen. Ik wilde graag meer weten wat er allemaal gedaan kon worden met containers.&lt;/p&gt;
+
+&lt;p&gt;Het was ook interessant om te zien dat de technologie om containers aan te maken al lang bestond maar dat het nu pas populair is geworden door de eenvoudigheid van Docker. Een gebruikersvriendelijke applicatie is dus vaak beter dan een efficiëntere maar onbruikbare applicatie.&lt;/p&gt;
+
+&lt;p&gt;Het gebruik van Docker Swarm deed mij ook realiseren dat er over de opslag van gegevens goed moet worden nagedacht omdat er heel veel containers aan dezelfde gegevens moeten kunnen geraken of misschien ook niet. Docker is ook enkel maar schaalbaar indien alle onderdelen kunnen schalen.&lt;/p&gt;
+
+&lt;p&gt;Tegenover de rest van de groep had ik als voordeel dat ik GNU/Linux op mijn laptop geïnstalleerd had, zij hadden Windows en moesten Docker in een virtuele machine draaien waar GNU/Linux op geïnstalleerd was.&lt;/p&gt;
+
+&lt;p&gt;Het voordeel van seminaries is dat er veel nieuwe theoretische kennis opgedaan kan worden maar omdat er tijdens dit seminarie een hands-on gedeelte was, was ik meer gemotiveerd om constant te volgen en te luisteren. Omdat ik meer gemotiveerd ben tijdens dit soort van seminaries hoop ik er op dat Hogeschool PXL zulke seminaries zal blijven aanbieden aan toekomstige studenten. Ook hoop ik dat toekomstige seminaries voor mij, als werknemer ook op deze manier zullen verlopen.&lt;/p&gt;
+
+&lt;p&gt;Ik weet zeker dat ik mijn kennis van Docker nog zal kunnen gebruiken tijdens mijn stage dus alles wat ik tijdens dit seminarie heb gezien zal ik zeker onthouden.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Migrate from Jekyll to Hugo</title>
-      <link>https://italent.samycoenen.be/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>DevOps</title>
+      <link>https://italent.samycoenen.be/post/devops/</link>
+      <pubDate>Wed, 30 Nov 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://italent.samycoenen.be/post/migrate-from-jekyll/</guid>
+      <guid>https://italent.samycoenen.be/post/devops/</guid>
       <description>
 
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://italent.samycoenen.be/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Onderwerp: DevOps&lt;br /&gt;
+Gegeven door: Dries Dams van iAdvise&lt;br /&gt;
+Locatie: Hogeschool PXL&lt;br /&gt;
+Datum: 30/11/2016&lt;/p&gt;
 
-&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;inleiding&#34;&gt;&lt;strong&gt;Inleiding&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Als inleiding werd een korte beschrijving van het bedrijf gegeven met de normen en waarden. iAdvice maakt deel uit van Cronos Group en werkt met klanten van België en Nederland.&lt;/p&gt;
 
-&lt;p&gt;should become&lt;/p&gt;
+&lt;h2 id=&#34;definitie&#34;&gt;&lt;strong&gt;Definitie&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;DevOps is een culturele en professionele beweging, meestal probeert men DevOps te definiëren door een aantal tools op te lijsten, maar dit is niet juist. Er wordt ook geprobeert om het als job titel te gebruiken maar dat is ook een foutief gebruik van het woord.&lt;/p&gt;
 
-&lt;h2 id=&#34;fix-content&#34;&gt;Fix content&lt;/h2&gt;
+&lt;p&gt;Het is een inclusieve beweging met als doel om ontwikkelaars en infrastructuur professionals beter samen te laten werken.&lt;/p&gt;
 
-&lt;p&gt;Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.&lt;/p&gt;
+&lt;p&gt;Dit is mogelijk door de traditionele piramidevormige bedrijfsstructuur te vervangen door een horizontale structuur waar iedereen met elkaar kan samenwerken en er een normale omgang kan zijn.&lt;/p&gt;
 
-&lt;h2 id=&#34;publish&#34;&gt;Publish&lt;/h2&gt;
+&lt;h2 id=&#34;geschiedenis-van-managementfilosofieën&#34;&gt;&lt;strong&gt;Geschiedenis van managementfilosofieën&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;The default is for Jekyll to publish the website to a &lt;code&gt;_site&lt;/code&gt; directory, whereas Hugo publishes to a &lt;code&gt;public&lt;/code&gt; directory.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
+&lt;p&gt;Voordat de term DevOps uitgevonden werd waren er al reeds lang geleden ontwikkelmethoden.&lt;/p&gt;
 
-&lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1950: LEAN heeft zeven principes: voorkom verspilling, versterk het leereffect, beslis zo laat mogelijk, lever zo snel mogelijk, geef het team verantwoordelijkheid, kwaliteit, een geheel zien.&lt;/li&gt;
+&lt;li&gt;1986: NNPDG&lt;/li&gt;
+&lt;li&gt;1993: SCRUM,XP programming heeft als eigenschappen dat er aan pair programming gedaan wordt, veel planning, een continue process als team en een gedeelde kennis.&lt;/li&gt;
+&lt;li&gt;2001: Agile: Dit is juist na de .com bubble en anti-establishment periode ontstaan, Agile Manifesto werd geschreven door Mike Beedle, Ken Schwaber en Jeff Sutherland.&lt;/li&gt;
+&lt;li&gt;2009: DevOps: Patrick Debois geeft keynote, Andrew Shafer en Gene Kim schrijven boek over DevOps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;automatisatie&#34;&gt;&lt;strong&gt;Automatisatie&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Het doel is om alles te automatiseren.
+Netflix geeft het grote voorbeeld: ze schreven zelf tools genaamd Siminian Army en Chaos Monkey. Deze programma&amp;rsquo;s hebben als taak om hun eigen diensten aan te vallen waarbij er volledige servers verwijdert worden. Op die manier kunnen ze hun infrastructuur testen op stabiliteit en de ingebouwde mogelijkheid tot automatisch herstel.
+&lt;img src=&#34;../../img/SimianArmy.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Verzamel zoveel mogelijk informatie van systemen en geef deze weer op grote schermen met dashboards.&lt;/p&gt;
+
+&lt;p&gt;Dit heeft als doel om elke werknemer te kunnen betrekken. Elke keer dat een werknemer nu voorbij de schermen wandelt kan hij zelf een observatie maken en meldingen doen of zelfs advies geven om het dashboard duidelijker te maken. De systeembeheerder heeft een extra manier om meldingen te ontvangen waardoor hij sneller kan reageren op problemen.
+&lt;img src=&#34;../../img/Dashboard.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Deel alles:
+Hipchat, Slack en andere berichtendiensten zorgen ervoor dat iedereen verschillende gesprekken kan bijwonen, door de beslissingen in projecten transparant te houden zal iedereen zich meer betrokken voelen en zich meer inzetten.&lt;/p&gt;
+
+&lt;p&gt;Geef meer beheer aan ontwikkelaars door ze de mogelijkheid te geven om ChatOps commando&amp;rsquo;s sturen via chat. Ze kunnen zelf servers aan- en uitschakelen zonder daarvoor eerst tijd te verliezen omdat het aangevraagd moet worden aan een systeembeheerder.&lt;/p&gt;
+
+&lt;p&gt;Er zijn tegenwoordig veel verschillende afkortingen voor elke specialisatie in IT, hier is een kleine lijst zonder bepaalde volgorde:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SECOPS&lt;/li&gt;
+&lt;li&gt;NETSEC&lt;/li&gt;
+&lt;li&gt;DEVNET&lt;/li&gt;
+&lt;li&gt;DEVSEC&lt;/li&gt;
+&lt;li&gt;SECNET&lt;/li&gt;
+&lt;li&gt;OPSNET&lt;/li&gt;
+&lt;li&gt;SECDEV&lt;/li&gt;
+&lt;li&gt;NETOPS&lt;/li&gt;
+&lt;li&gt;OPSDEV&lt;/li&gt;
+&lt;li&gt;NETDEV&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ten slotte wilt de presentator dat we de afkorting DEVNETOPSEC gebruiken, het is een combinatie van alle positieve elementen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Culture&lt;/li&gt;
+&lt;li&gt;Automation&lt;/li&gt;
+&lt;li&gt;LEAN&lt;/li&gt;
+&lt;li&gt;Measurement&lt;/li&gt;
+&lt;li&gt;Sharing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;reflectie&#34;&gt;Reflectie&lt;/h1&gt;
+
+&lt;p&gt;Ik had al veel gehoord over Agile tijdens de lessen of seminaries maar ik snapte niet helemaal waarom het zo revolutionair gevonden werd. Nu dat ik de volledige geschiedenis heb kunnen bekijken zie ik de evolutie en de voordelen met elke nieuwe iteratie aan ontwikkelmethoden. DevOps vindt ik daarom heel interessant als manier omdat ontwikkelaars en systeembeheerders samen kunnen werken. Automatisatie vind ik ook essentieel omdat er dan veel meer bereikt kan worden met dezelfde tijd en personen.&lt;/p&gt;
+
+&lt;p&gt;Ik ben zelf soms ook gefrustreerd wanneer ik iets  herhaaldelijk moet doen dat heel eenvoudig te automatiseren zou zijn, maar niet gedaan wordt omdat het niet nodig geacht wordt. Omdat ik op zo een momenten niet heel diplomatiek mijn redenering kan uitleggen kan het misschien zijn dat ik hun gedachten niet heb kunnen veranderen. In de toekomst zal ik daarom meer focussen op de voordelen in plaats van de nadelen van de huidige manier.&lt;/p&gt;
+
+&lt;p&gt;Tijdens het IT-project zullen wij, de systemen- en netwerkbeheer studenten moeten samenwerken met de applicatieontwikkelaars en de softwaremanagers. Indien ik de mogelijkheid heb zal ik zeker proberen om ChatOps te integreren en een soort van dashboard.&lt;/p&gt;
+
+&lt;p&gt;Ik vond het ook zeer interessant hoe bedrijven als Netflix onverwoestbare systemen opgericht hebben, ik heb zelf ook servers aangemaakt gehad en er dan een eigen naam aan gegeven maar ik snap nu dat dat eigenlijk geen goed manier is om met servers te werken. Het is beter om niet rechtstreeks commando&amp;rsquo;s in te geven en een server als een robot te behandelen met een nummer zoals 001.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internationale Week - Cardiff</title>
+      <link>https://italent.samycoenen.be/post/cardiff/</link>
+      <pubDate>Mon, 04 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/post/cardiff/</guid>
+      <description>
+
+&lt;p&gt;Locatie: Cardiff&lt;br /&gt;
+Datum: 04/04/2016 - 08/04/2016&lt;/p&gt;
+
+&lt;p&gt;Medestudenten PXL:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bram Nagtegals&lt;/li&gt;
+&lt;li&gt;Kevin Buschgens&lt;/li&gt;
+&lt;li&gt;Ruben Huybrighs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hieronder in de planning ziet u een algemeen overzicht van alle activiteiten.
+&lt;img src=&#34;../../img/cardiff/cardiff-timetable.jpg&#34; alt=&#34;Planning&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;maandag&#34;&gt;Maandag&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/inkom.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We kwamen samen aan de receptie van Cardiff Metropolitan University en kregen een korte toelichting over het gebruik van de bus en waar we moesten verzamelen iedere morgen. We kregen ook een zak met pen, papier en naamkaartje mee. Hierna moesten we meekomen naar een lokaal waar we een algemene uitleg kregen over onze week in Cardiff. Na de uitleg werden we opgedeeld in groepen en moesten we voor teambuilding een oefening maken.&lt;/p&gt;
+
+&lt;p&gt;In de namiddag kregen we eerst een korte verwelkoming door de directeur van de school. Vervolgens werden we opgedeeld in 2 groepen en moesten we een concept bedenken hoe we het toerisme van Cardiff zouden kunnen verbeteren via sociale media. Op het einde van de dag moest iedere groep in het kort toelichten welke platformen we zouden gebruiken, op welke manier en waarom.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/schooldirecteur.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;dinsdag&#34;&gt;Dinsdag&lt;/h1&gt;
+
+&lt;h2 id=&#34;seminarie&#34;&gt;Seminarie&lt;/h2&gt;
+
+&lt;p&gt;Nicola Williams is een marketeer die op een aangename en energievolle manier een seminarie gaf. Het seminarie ging over hoe sociale media gebruikt wordt door grote bedrijven. Ze gaf ook meerdere voorbeelden via filmpjes hoe marketing gedaan wordt door de grote bedrijven en wat de goede en slechte dingen hieraan waren.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/nicola-williams.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hierna kregen we een kleine pauze gevolgd door een tweede seminarie door &lt;a href=&#34;http://ignite.wales/speakers/louise-czekaj/&#34; target=&#34;_blank&#34;&gt;Louise Czekaj&lt;/a&gt;. Zij stond in voor de sociale media van de bank &amp;ldquo;Principality Building Society&amp;rdquo; dat hypotheken verkoopt. Ze vertelde ons hoe ze uitdagingen aanpakt en hoe deze een negatieve of positieve invloed kunnen hebben op het imago van een bedrijf. Een voorbeeld hiervan was toen de bank het Millenium Stadium Cardiff sponsorde en de naam veranderde naar Principality Stadium Cardiff waardoor er heel veel mensen kwade reacties achterlieten op hun sociale media pagina’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/louise-czekaj.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In de namiddag hebben we een uitstap gemaakt naar Cardiff Castle. We hebben hier een tweetal uur rondgelopen en foto’s gemaakt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/cardiff-groepsfoto.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;woensdag&#34;&gt;Woensdag&lt;/h1&gt;
+
+&lt;h2 id=&#34;seminarie-1&#34;&gt;Seminarie&lt;/h2&gt;
+
+&lt;p&gt;We begonnen de dag met een seminarie van &lt;a href=&#34;http://www.cardiffmet.ac.uk/management/staff/Pages/Dr-Taslima-Begum.aspx&#34; target=&#34;_blank&#34;&gt;Dr. Taslima Begum&lt;/a&gt;. Ze vertelde ons wat de gevaren van sociale media waren en hoe sociale media onze informatie gebruikt, vaak zonder dat we dit weten. Ze raadde ons aan om ons sociale media platformen zoveel mogelijk te beveiligen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/taslima-begum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Na de lunch zijn we samen vertrokken naar het National Assembly gebouw of ook Senedd. Dit lag in Cardiff Bay. In dit gebouw opereert eigenlijk de ‘regering’ van Wales. Ze hebben macht op gebied van gezondheidszorg, school en nog meer, maar niet alles. We kregen hier een rondleiding met een gids die ons geschiedenis meegaf en hoe hij de toekomst zag. Het was een nieuw gebouw dat economisch vriendelijk was.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/senedd.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Na de rondleiding hebben we met een speedboot rondgevaren op Cardiff Bay. Dit was een unieke ervaring voor ons en we waren redelijk nat na de boottocht.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/sea-safari.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;donderdag&#34;&gt;Donderdag&lt;/h1&gt;
+
+&lt;p&gt;We zijn vrijwel direct begonnen met het maken van onze poster. We kregen hier zo goed als de volledige dag voor. Om 11 uur werden we naar een lokaal gebracht omdat we nog een korte seminarie gingen krijgen van Prof David Brooksbank over hoe sociale media in de toekomst er uit zal zien. Maar dit seminarie was eigenlijk hoofdzakelijk gefocust op 3D printen en 4D printen in de toekomst. Veel sociale media over de toekomst was hier dus eigenlijk niet aan volgens ons. Het was wel interessant om te zien hoe de toekomst eruit zal zien op gebied van technologie en het printen van onderdelen. 4D printen is iets dat in de toekomst zal opkomen. Het print een onderdeel dat zichzelf kan herstellen of veranderen van vorm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/david-brooksbank.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;vrijdag&#34;&gt;Vrijdag&lt;/h1&gt;
+
+&lt;p&gt;Volgens Rowena was het niet de moeite om nog te komen voor ons op vrijdag omdat we onze bus al om half 12 terug moesten nemen. Ze zei ook dat het niet verplicht was om aanwezig te zijn omdat er enkel een korte toelichting werd gegeven over onze gemaakte posters.&lt;/p&gt;
+
+&lt;p&gt;Mijn groep:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cloots Vone&lt;/li&gt;
+&lt;li&gt;Jel Sadones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We hebben uiteindelijk gewonnen met de beste poster van onze theoretische Social Media strategie.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/cardiff/cardiff-poster.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;reflectie&#34;&gt;Reflectie&lt;/h1&gt;
+
+&lt;p&gt;Deze reis heb ik over het algemeen positief ervaren. Het is een opportuniteit geweest om veel Engels te kunnen praten, als informaticastudent moet ik dagelijks met veel Engelse teksten werken dus dit was geen enkel probleem.&lt;/p&gt;
+
+&lt;p&gt;De eerste uitdaging was het vinden van een gepast transportmiddel, dit werd niet voor ons georganiseerd dus daarom hebben we dit samen vergeleken in een Facebook groepchat. Dit heeft toch enkele weken geduurd omdat we eerst met vijf personen waren en de tickets moesten door 1 iemand gekocht worden.&lt;/p&gt;
+
+&lt;p&gt;Eens op de kamers van het hostel zaten we samen met studenten van de Waalse kant van België, wanneer er iets geregeld moest worden tussen ons heb ik altijd als een soort gids opgetreden. Ik heb de Franse taal redelijk onder de knie omdat een deel van mijn familie Franstalig is.&lt;/p&gt;
+
+&lt;p&gt;De informatie die is gegeven tijdens de seminaries was ook altijd interessant en leerrijk omdat er veel voorbeelden van echte situaties besproken werden.&lt;/p&gt;
+
+&lt;p&gt;Verder kan ik zeggen dat ik nu veel meer inzicht heb in de geschiedenis en het bestuur van Cardiff en Wales. Ik wist bijvoorbeeld niet dat er in Cardiff als hoofdstad toch wel heel veel natuur was en door een toch wel laag aantal inwoners was het er ook heel rustig. Het openbaar vervoer gebruiken was soms iets te ingewikkeld waardoor we vaak door parken gewandeld hebben.&lt;/p&gt;
+
+&lt;p&gt;Tijdens het groepswerk voor de Social Media poster had ik een nadeel omdat ik geen kennis had van Photoshop, ik heb mijn bijdrage op andere manieren geleverd door bijvoorbeeld foto&amp;rsquo;s of informatie op te zoeken en andere zaken.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projectweek 2TIN</title>
+      <link>https://italent.samycoenen.be/post/projectweek/</link>
+      <pubDate>Mon, 15 Feb 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/post/projectweek/</guid>
+      <description>
+
+&lt;p&gt;Locatie: Hogeschool PXL&lt;/p&gt;
+
+&lt;p&gt;Datum: 15/02/2016 - 19/02/2016&lt;/p&gt;
+
+&lt;h1 id=&#34;omschrijving&#34;&gt;Omschrijving:&lt;/h1&gt;
+
+&lt;p&gt;Tijdens de projectweek voor de richting Toegepaste Informatica waren er talrijke seminaries en infosessies. Het doel was om de studenten van het 2de jaar informatie en vaardigheden bij te brengen over het gebeuren in de IT wereld. De nadruk werd vooral gelegd op samenwerking als groep. Onze groep is zodanig gevormd dat onze persoonlijke competenties de zwakkere punten van de andere groepsleden complementeren om zo een evenwichtig team te vormen. Onze doelstelling als team was dus duidelijk, onze beste eigenschappen zouden gecombineerd worden om de uitdagingen die we aangaan tot een goed einde te brengen!&lt;/p&gt;
+
+&lt;p&gt;De groep bestond uit Samy Coenen, Thomas Ven en Yannick Van Herck.&lt;/p&gt;
+
+&lt;h1 id=&#34;maandag&#34;&gt;Maandag&lt;/h1&gt;
+
+&lt;p&gt;Thema 1: Softskills: groepsdynamica/teamworking&lt;/p&gt;
+
+&lt;h2 id=&#34;voormiddag&#34;&gt;Voormiddag:&lt;/h2&gt;
+
+&lt;p&gt;Maandag is begonnen met een korte presentatie over de dagindelingen van de volgende dagen. Hierna hebben we uitleg gekregen over de samenwerking binnen het project en hoe verschillende personen elkaar best kunnen aanvullen door de Thalento persoonlijkheidstest te vergelijken. Deze test gaat kijken naar wat je verschillende kwaliteiten zijn binnen de verschillende categorieën.&lt;/p&gt;
+
+&lt;p&gt;De 4 categorieën waren:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Beslissingspatroon&lt;/li&gt;
+&lt;li&gt;Teamoriëntatie&lt;/li&gt;
+&lt;li&gt;Werkmethode&lt;/li&gt;
+&lt;li&gt;Interactie &amp;amp; Relaties&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Door deze test kreeg iedereen een beter inzicht van zijn goede en minder goede eigenschappen. Hierna moesten we met onze testresultaten gaan zoeken naar medestudenten die onze negatieve punten omhoog haalden. Zodat we een evenwichtig team konden maken om aan het project te werken. Nadat we onze groepen hadden gevormd gingen we terug naar de aula voor verdere algemene informatie.&lt;/p&gt;
+
+&lt;h2 id=&#34;namiddag&#34;&gt;Namiddag:&lt;/h2&gt;
+
+&lt;p&gt;Na de middagpauze hebben we nog een vervolg op de presentatie van de voormiddag gehad. Hierbij werd nog meer informatie over het verloop van samenwerking in teams gegeven. Na deze algemene uitleg werd er een quiz georganiseerd door Ecolo la Luna als teambuilding om onze nieuwe groepen beter te leren kennen.&lt;/p&gt;
+
+&lt;p&gt;De groepen waren deze keer ingedeeld per tafel, wij waren groep 5 en in totaal waren er 18 groepen.&lt;/p&gt;
+
+&lt;p&gt;Op het einde waren we geëindigd op de 3de plaats i.e. een bronzen medaille.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/refter.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;dinsdag&#34;&gt;Dinsdag&lt;/h1&gt;
+
+&lt;p&gt;Thema 3: professioneel netwerken&lt;/p&gt;
+
+&lt;h2 id=&#34;voormiddag-1&#34;&gt;Voormiddag:&lt;/h2&gt;
+
+&lt;h3 id=&#34;seminarie&#34;&gt;Seminarie&lt;/h3&gt;
+
+&lt;p&gt;Onderwerp: Netwerken werkt
+Spreker: Ann Beckers (&lt;a href=&#34;https://be.linkedin.com/in/annbeckers&#34; target=&#34;_blank&#34;&gt;https://be.linkedin.com/in/annbeckers&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: Seminarie in verband met het netwerken tussen personen. Aan bod kwam het belang van het opbouwen van een personen-netwerk om zo relaties te leggen die men kan gebruiken om contacten te leggen in verschillende graden.&lt;/p&gt;
+
+&lt;p&gt;Hierbij had men het volgende als voorbeeld gebruikt:&lt;/p&gt;
+
+&lt;p&gt;Stel je hebt 250, 1ste rang contacten, elke rechtstreekse contactpersoon heeft dan 125 contactpersonen waardoor je al snel 31 500 personen kan bereiken.&lt;/p&gt;
+
+&lt;p&gt;Hoofdpunten waren zowel de opbouw en de te volgen stappen om relaties te leggen. Ook kwam grotendeels aan bod wat de verschillende tactieken om contact te leggen met potentiële klanten zijn (brede term voor persoon die hoger in rang staat dan jezelf). Dus ook hoe je met een werkgever omgaat.&lt;/p&gt;
+
+&lt;h2 id=&#34;namiddag-1&#34;&gt;Namiddag:&lt;/h2&gt;
+
+&lt;p&gt;Thema 2: internationalisering&lt;/p&gt;
+
+&lt;h3 id=&#34;seminarie-1&#34;&gt;Seminarie&lt;/h3&gt;
+
+&lt;p&gt;Onderwerp: Internationalisering
+Sprekers: Johan Cleuren, Marijke Sporen, meerdere Erasmus studenten&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: Presentatie over internationale stages en studeren in het buitenland. De verschillende mogelijkheden zijn aan bod gekomen, zowel als de mogelijkheden voor het al dan niet in aanmerking te komen voor een beurs. De vereisten om aan het programma te mogen deelnemen en informatie over het hele gebeuren. Verder werden ook studenten die aan internationaal studeren en stages hebben deelgenomen uitgenodigd voor een korte presentatie te presenteren. De indruk lijkt dat het studeren op zich een vrij chaotische beleving is, verschillen in cultuur en onderwijsniveau als grote obstakels. Ondanks dit zijn de meningen grotendeels hetzelfde, namelijk dat het een onvergetelijke belevenis is en dat iedereen het opnieuw zou doen.&lt;/p&gt;
+
+&lt;h1 id=&#34;woensdag&#34;&gt;Woensdag&lt;/h1&gt;
+
+&lt;h2 id=&#34;voormiddag-2&#34;&gt;Voormiddag:&lt;/h2&gt;
+
+&lt;p&gt;Seminarie.
+Onderwerp: FCCU (Federal Computer Crime Unit)
+Sprekers: Bart Ooms&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/seminarie-politie.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: In dit seminarie ging het over hoe de politie meer en meer op digitale criminaliteit bestrijding wilt inzetten.&lt;/p&gt;
+
+&lt;p&gt;Ze zijn namelijk aan grondige hervormingen bezig en hebben hun unit van achtentwintig naar tweeënveertig personen uitgebreid.&lt;/p&gt;
+
+&lt;p&gt;Tijdens de presentatie werden er heel veel voorbeelden van situaties gegeven hoe het er aan toe gaat. Hierdoor was er een duidelijk beeld van hoe de spreker zijn job ervoer. Er werd zeer uitgebreid geantwoord op alle vragen. De spreker was zeer enthousiast over zijn job , dit maakte de studenten ook meer geïnteresseerd, waardoor er meer vragen gesteld werden.&lt;/p&gt;
+
+&lt;p&gt;Hij was ook heel open over de opleiding en het salaris dat je kan verdienen. Om bij de cybercrime unit aangenomen te worden moet je minstens een Professionele bachelor hebben en een 17 maanden lange in-house opleiding gevolgd hebben. Tijdens de opleiding verdien je 1600-1700 euro netto, na de opleiding verdien je rond de 1900 euro afhankelijk van verschillende factoren zoals bijvoorbeeld uw taalbeheersing, zo krijg je een bonus van 150 euro voor de kennis van Frans en 50 euro bonus voor de kennis van Engels, dit laatste is natuurlijk vanzelfsprekend bij een informaticus. Na 5 jaar werkervaring zou het nettoloon rond de 2500 euro zijn en heb je de mogelijk om tegen hetzelfde loon vrij te bewegen naar een andere positie binnen de politie. Een ander onderwerp was het illegaal downloaden van films en muziek, hier gaf Mr. Ooms als voorbeeld een 17-jarige zoon die illegaal muziek gedownload had in zijn kamer, hierdoor had zijn moeder een boete gehad van meer dan honderdduizend euro en had ze zelfs haar huis moeten verkopen.&lt;/p&gt;
+
+&lt;h2 id=&#34;namiddag-2&#34;&gt;Namiddag:&lt;/h2&gt;
+
+&lt;p&gt;Thema 5: onderzoek&lt;/p&gt;
+
+&lt;h3 id=&#34;seminarie-2&#34;&gt;Seminarie.&lt;/h3&gt;
+
+&lt;p&gt;Onderwerp: Onderzoek
+Spreker: Philippe Haldermans en Steven Palmaers&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: In de namiddag kregen we een voorstelling van onderzoek en hoe het in de praktijk gebeurd. Niet iedereen heeft het juiste beeld van onderzoekers en wat ze nu eigenlijk allemaal doen en wat onderzoeken nu eigenlijk inhoud. Hierna lieten ze ons zien hoe er in de praktijk oplossingen worden aangeboden aan bedrijven voor allerhande problemen. Dit gebeurt door middel van een pitch. Bij een pitch ga je eigenlijk op een korte periode een bedrijf je oplossing proberen aan te prijzen zodat ze met jouw oplossing willen verdergaan en met jou hiervoor willen samenwerken. Na de algemene uitleg kregen we nog twee praktijk voorbeelden te zien. Hierna moesten we ook zelf een idee gaan pitchen in 90 seconden. De hele zaal werd verdeeld onder 4 lokalen waar we dan met onze groepjes zelf aan onze ideeën moesten werken. Vervolgens moesten we in de lokalen onze pitch uitvoeren. Nadat iedereen geweest was gingen we stemmen per lokaal wat de twee beste waren. Bij ons lokaal zijn we met ons idee om VR cardgaming uit te brengen als derde geëindigd.&lt;/p&gt;
+
+&lt;p&gt;U kan onze pitch beluisteren via deze &lt;a href=&#34;https://drive.google.com/file/d/0BwQLbvVuiXqkTXI3RmdMd0dUZEk/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hieronder ziet u de puntentelling.
+&lt;img src=&#34;../../img/projectweek/uitslag_duim.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hierna gingen we terug naar de aula om de 8 groepen hun pitch nogmaals voor een juri te presenteren. In de finale van de pitchen waren er resterende groepen met volgende onderwerpen:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Groep&lt;/th&gt;
+&lt;th&gt;Omschrijving&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Een app om je eigen nieuwsfeed te bekijken, deze wordt voorgelezen met text-to-speech. Dit is te gebruiken in auto’s met Apple, Android of AUX-kabel in oude auto’s.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Een Sensor onder een pleister om vitale functies te sensoren en diabetes,hartfalen, etc. te detecteren. Dit kan ook gebruikt worden om tijdens het sporten activiteiten te registreren.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;Een zender bij bejaarden zetten om kinesist bezoeken te registreren en de juiste bezoekuren gemakkelijk registreren.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Een web app om broodjes te bestellen. Er is namelijk bijna altijd een lange rij en indien u bestelt hebt kan u snel en gemakkelijk broodjes afhalen aan een automatische verdeelmachine  met  een code.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;Een VR app gebruiken om bejaarden te laten winkelen in een virtuele winkel, kinderen die in een andere kamer zijn kunnen door een VR bril zichzelf  in dezelfde kamer als hun ouders ouders plaatsen.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;Een app om studierichtingen weer te geven, daarna door een persoonlijkheidstest een aantal richtingen aanbevelen. Dit zou ontworpen worden met behulp van de afdeling lerarenopleiding en ze denken hiervoor twee pedagogen en twee tot drie ontwikkelaars nodig te hebben.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;VR bril gebruiken om les te volgen thuis in de zetel. Lector kan 3D objecten maken om de lessen nog interessanter te maken. Ze gaan de brillen niet zelf maken maar ze gaan bestaande brillen gebruiken van Sony, HTC en Oculus.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;Mailbox filter tegen Wies Bijnens met aanpasbare sleutelwoorden of de volledig negeren optie gebruiken.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;De uiteindelijke top 3 was:&lt;/p&gt;
+
+&lt;p&gt;Rangschikking:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;3de plaats groep 35&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;2de plaats groep 16&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1ste plaats groep 30&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;donderdag&#34;&gt;Donderdag&lt;/h1&gt;
+
+&lt;p&gt;Thema 6: klantgerichtecommunicatie&lt;/p&gt;
+
+&lt;h2 id=&#34;voormiddag-3&#34;&gt;Voormiddag:&lt;/h2&gt;
+
+&lt;h3 id=&#34;seminarie-3&#34;&gt;Seminarie&lt;/h3&gt;
+
+&lt;p&gt;Onderwerp: klantgerichte communicatie
+Spreker: Ann Beckers (&lt;a href=&#34;https://be.linkedin.com/in/annbeckers&#34; target=&#34;_blank&#34;&gt;https://be.linkedin.com/in/annbeckers&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: In dit seminarie kregen we meer uitleg over hoe we moeten presenteren. Er werden allerhande tips en trucks gegeven over hoe we een presentatie moeten voorbereiden, uitvoeren en reflecteren. Ze wees er bijvoorbeeld op om op presentatie slides enkel korte punten te zetten en er voor te zorgen dat de klant de toekomstige onderwerpen nog niet kon aflezen want anders zou hij te snel afgeleid kunnen zijn.
+Hierna moesten we de geleerde vaardigheden toepassen in een kleine opdracht. Hier werden ons twee problemen voorgesteld die we moesten proberen op te lossen en dan onze oplossing in een presentatie en demo proberen te steken. Het eerste probleem was een lingerie winkel die meer jongeren als klanten wilde aantrekken. En het tweede probleem was een opvangcentrum waar jongeren wonen die ook internet toegang hebben via de vaste computers aanwezig. Ook konden de oudere jongeren met hun eigen toestellen op het internet. Het enige probleem was dat hier geen enkele beveiliging op zit. We hebben voor het tweede probleem gekozen en dit uitgewerkt.
+Hierna was er per probleem één groep die het effectief moest presenteren dit werd hierna in de grote groep gereflecteerd en kregen we nog meer uitleg wat er goed en minder goed was.&lt;/p&gt;
+
+&lt;p&gt;Onze oplossing voor de eerste situatie:&lt;/p&gt;
+
+&lt;p&gt;Huidige situatie:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 bbox&lt;/li&gt;
+&lt;li&gt;1 switch&lt;/li&gt;
+&lt;li&gt;3 computers + 1 defecte&lt;/li&gt;
+&lt;li&gt;6 laptops&lt;/li&gt;
+&lt;li&gt;1 fileserver met windows 7&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;oplossing-1&#34;&gt;Oplossing 1:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/donderdag_opstelling_netwerk.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;bbox(WIFI OFF) -&amp;gt; Windows 7(Bind DNS Manager,ICS) -&amp;gt; Switch -&amp;gt; Vaste Computers Access&lt;/p&gt;
+
+&lt;p&gt;Point(Met goede beveiliging)&lt;/p&gt;
+
+&lt;p&gt;Instelling op bbox: iedereen heeft geen internet op bepaalde uren.&lt;/p&gt;
+
+&lt;p&gt;Installeer bind op Windows 7 pc&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/donderdag_opstelling_netwerk2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Instelling op Access Point:&lt;/p&gt;
+
+&lt;p&gt;Wifi: WPA2(AES,…) wachtwoord&lt;/p&gt;
+
+&lt;p&gt;WPS disabled&lt;/p&gt;
+
+&lt;p&gt;Te kopen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 Access Point +/- 50€&lt;/li&gt;
+&lt;li&gt;1 Netwerk kaart 2 gigabit poorten +/- 50€&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;oplossing-2&#34;&gt;Oplossing 2:&lt;/h3&gt;
+
+&lt;p&gt;Verkrijg server met windows server 2008 / 2012&lt;/p&gt;
+
+&lt;p&gt;Reden: veel meer opties zoals internet blokkeren per groep.&lt;/p&gt;
+
+&lt;p&gt;Gebruikers blokkeren kan op server i.p.v. bbox.&lt;/p&gt;
+
+&lt;h3 id=&#34;oplossing-3&#34;&gt;Oplossing 3:&lt;/h3&gt;
+
+&lt;p&gt;Installeer Ubuntu Server op huidige server.&lt;/p&gt;
+
+&lt;p&gt;Te kopen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Harde schijf +/- 20€&lt;/li&gt;
+&lt;li&gt;1 Netwerk kaart 2 gigabit poorten +/- 50€&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nadeel = zeer moeilijk aanpasbaar voor normaal persoon.&lt;/p&gt;
+
+&lt;h2 id=&#34;namiddag-3&#34;&gt;Namiddag:&lt;/h2&gt;
+
+&lt;p&gt;Onderwerp: Portfolio + Jobevent
+Samenvatting: Na de middagpauze gingen we naar de lokalen om aan ons portfolio te werken. Dit ging voor ons zeer vlot omdat we door de week al goed aan ons portfolio hadden gewerkt. Rond 14:50 zijn we dan naar het jobevent in gebouw D gegaan. Tijdens dit jobevent konden we met de verschillende bedrijven gaan praten die er een stand hadden. En zo onze geleerde vaardigheden van het seminarie Netwerken Werkt proberen toe te passen. Dit jobevent was bedoeld om ons een kans te geven een stageplaats en/of een vakantiejob te helpen verkrijgen en om ons te laten netwerken met de verschillende bedrijven die aanwezig waren.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/donderdag_inkomhal_pxl.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;vrijdag&#34;&gt;Vrijdag&lt;/h1&gt;
+
+&lt;h2 id=&#34;voormiddag-4&#34;&gt;Voormiddag:&lt;/h2&gt;
+
+&lt;p&gt;Onderwerp: Voorstelling projecten&lt;/p&gt;
+
+&lt;p&gt;Spreker: David Parren en Gert Van Waeyenberg&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: Tijdens deze voorstelling maakten we kennis met onze lectoren voor de netwerkvakken. Voor Windows zal het David Parren worden en voor Linux zal het Gert Van Waeyenberg worden.  We kregen hierna ook al een kleine opdracht waarin we met een klein budget een upgrade moesten doen van twee servers. Dit bleek echter niet zo simpel. Uiteindelijk kregen we een mogelijke oplossing te horen. Dit gingen we dan in MS Project plannen en uitwerken.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/vrijdag_cost.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tussendoor kregen we ook meer informatie over de servers die op de hogeschool aanwezig zijn en die we in het verloop van het semester gaan gebruiken. We hebben ook een twee SAS harde schijven en ECC-geheugen latjes mogen bekijken in het lokaal.&lt;/p&gt;
+
+&lt;h2 id=&#34;namiddag-4&#34;&gt;Namiddag:&lt;/h2&gt;
+
+&lt;p&gt;Thema 7: Ondernemerschap&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/projectweek/vrijdag_corda.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;seminarie-4&#34;&gt;Seminarie&lt;/h3&gt;
+
+&lt;p&gt;Onderwerp: ondernemingschap&lt;/p&gt;
+
+&lt;p&gt;Meerdere sprekers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wouter Vandenneucker (@woutervddn)&lt;/li&gt;
+&lt;li&gt;Bjorn Engels (@BjornEngels)&lt;/li&gt;
+&lt;li&gt;Alain Hufkens (@hufkens)&lt;/li&gt;
+&lt;li&gt;Jeroen Benats(@JeroenBenats).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deze ondernemers spraken over Credo3D, WeeTaps, Bambooti en Bewire.&lt;/p&gt;
+
+&lt;p&gt;Samenvatting: In de namiddag zijn we naar de Corda Campus gegaan waar een aantal jonge ondernemers spraken over wat hun ervaringen zijn als ondernemer in de ondernemingswereld. Hierbij kwamen meerdere sprekers aan het bod die hun onderneming kwamen voorstellen en vooral hoe het leven als ondernemer is. De meeste zeiden dat als je een idee hebt, het niets waard is. Je moet het echt uitwerken, je moet actie ondernemen. Er werd zelfs gezegd dat ideeën waardeloos zijn in vergelijking met de grote berg werk dat uitgevoerd moet worden voor het idee te realiseren. Een eigen onderneming starten is een kwestie van durven. Natuurlijk heb je ook de mogelijkheden en de kansen nodig om dit financieel mogelijk te maken. Hiervoor zijn er de medewerkers van PXL-UHasselt StudentStartUP, zij bieden hun diensten gratis aan studenten en sturen je door naar kanalen waar je wel investeringen kan bemachtigen. Ook zijn er heel wat interessante mogelijkheden om als student toch al een onderneming te kunnen starten en tegelijk nog studeren. Dit was toch wel iets wat ons verbaasde. Er kunnen zelfs examens verplaatst worden als je bijvoorbeeld naar een evenement moet gaan voor je onderneming. Ook waren er sprekers die vaak niet in hun opzet slaagden maar toch ondanks de tegenslagen bleven doorzetten en er gekomen zijn. Waar het op neerkwam uiteindelijk was dat iedereen met een idee een onderneming kan starten, maar je moet bereid zijn er voor te werken.&lt;/p&gt;
+
+&lt;h1 id=&#34;eindreflectie&#34;&gt;Eindreflectie:&lt;/h1&gt;
+
+&lt;p&gt;Als ik één conclusie kan trekken uit deze week, dan is het wel dat soft skills enorm belangrijk zijn. We leven in een globale wereld met een steeds grotere vraag naar IT en daardoor hebben we veel kansen maar we moeten ze natuurlijk wel zelf grijpen. Als hogeschoolstudenten zijn dit bij ons bijvoorbeeld de seminaries, de internationale reizen, enzovoort&amp;hellip; . Al de contacten die we op deze manier maken kunnen we op LinkedIn als connecties toevoegen om een sterk startpunt te hebben na de studies.&lt;/p&gt;
+
+&lt;p&gt;We hebben geleerd dat een sterk team niet enkel op één vlak goed moet zijn, maar het is belangrijk een zo gevarieerd team mogelijk te vormen omdat teamprojecten een dynamisch gebeuren zijn met veel planning en communicatie voordat het echte werk kan uitgevoerd worden. Ons team is hierin geslaagd door te communiceren via een Facebook groepsgesprek en een gedeeld Google Docs document om verbeteringen op uit te voeren die uiteindelijk op dit Portfolio zijn terechtgekomen.&lt;/p&gt;
+
+&lt;p&gt;Mijn sterke punten waren zeker dat ik veel initiatief nam in de groep. In groep is er doelgericht gewerkt met een constant goede communicatie.
+Wanneer we andere meningen hadden, werd dit bediscussieerd tot een oplossing wordt gevonden die unaniem aanvaard werd. Het is belangrijk om rustig te blijven en te blijven luisteren, als er twee personen zich opjagen is er snel een conflict.&lt;/p&gt;
+
+&lt;p&gt;Ook andere communicatie naar buiten toe, zoals het presenteren en communiceren met een klant zonder technische kennis is niet eenvoudig maar zeker oplosbaar door het meer te oefenen. Omdat we als studenten altijd omringt zijn door andere studenten met dezelfde technische kennis vergeten we soms empathisch te zijn met &amp;ldquo;leken&amp;rdquo; .&lt;/p&gt;
 </description>
     </item>
     

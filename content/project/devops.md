@@ -12,7 +12,7 @@ summary = '
 | -----| ----------- | ------------------------------ |
 | 3 uren  | 30/11/2016  | Niet zelf aangebracht          |
 
-Seminarie gegeven door iAdvise in Hogeschool PXL. 
+Seminarie gegeven door iAdvise in Hogeschool PXL.
 
 Er werd gepraat over de definitie van DevOps, de geschiedenis en voorbeelden van automatisatie.
 '
@@ -33,8 +33,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "headers/bubbles-wide.jpg:"
+image = "logo/iadvise-logo.png"
+caption = ""
 [image]
 preview = "logo/iadvise-logo.png"
 caption = ""

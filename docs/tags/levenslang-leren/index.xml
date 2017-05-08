@@ -7,11 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
     <copyright>&amp;copy; 2017 Samy Coenen</copyright>
-    <lastBuildDate>Sat, 08 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/levenslang-leren/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Studiebuddy .Net</title>
+      <title> CasaDelizioso.be</title>
+      <link>https://italent.samycoenen.be/project/delizioso/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/delizioso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projectweek 2TIN</title>
+      <link>https://italent.samycoenen.be/project/projectweek/</link>
+      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://italent.samycoenen.be/project/projectweek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studiebuddy .Net Essentials</title>
       <link>https://italent.samycoenen.be/project/studiebuddynet/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -24,35 +42,12 @@ Datum: 30/11/2016&lt;/p&gt;
     </item>
     
     <item>
-      <title>Studiebuddy Java</title>
-      <link>https://italent.samycoenen.be/project/projectweek/</link>
-      <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://italent.samycoenen.be/project/projectweek/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps&lt;/p&gt;
-
-&lt;p&gt;Gegeven door: iAdvise&lt;/p&gt;
-
-&lt;p&gt;Locatie: PXL&lt;/p&gt;
-
-&lt;p&gt;Datum: 30/11/2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Studiebuddy Java</title>
+      <title>Studiebuddy Java Essentials</title>
       <link>https://italent.samycoenen.be/project/studiebuddyjava/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://italent.samycoenen.be/project/studiebuddyjava/</guid>
-      <description>&lt;p&gt;Onderwerp: DevOps&lt;/p&gt;
-
-&lt;p&gt;Gegeven door: iAdvise&lt;/p&gt;
-
-&lt;p&gt;Locatie: PXL&lt;/p&gt;
-
-&lt;p&gt;Datum: 30/11/2016&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
