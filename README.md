@@ -1,6 +1,6 @@
 # I-Talent
 
-Op deze toepassing rust auteursrecht. © 2007 De Europese Gemeenschap
+Op deze toepassing rust auteursrecht. © 2018 De Europese Gemeenschap
 
 Gelieve tevens rekening te houden met alle andere auteursrechtvermeldingen
 in de gebruikte onderdelen.
